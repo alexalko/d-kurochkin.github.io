@@ -750,6 +750,21 @@ header {
     background-position: left top;
     -webkit-background-size: cover;
             background-size: cover; }
+  #portfolio #work--4 {
+    background-image: url("../img/projects/christmas.jpg");
+    background-position: center top;
+    -webkit-background-size: cover;
+            background-size: cover; }
+  #portfolio #work--5 {
+    background-image: url("../img/projects/pahu.jpg");
+    background-position: center top;
+    -webkit-background-size: cover;
+            background-size: cover; }
+  #portfolio #work--6 {
+    background-image: url("../img/projects/bakery.jpg");
+    background-position: center top;
+    -webkit-background-size: cover;
+            background-size: cover; }
 
 #get-in-touch {
   padding: 0 25px 40px 25px; }
