@@ -1,6 +1,6 @@
 $(function () {
   $('.jsTel').inputmask({
-    "mask": "8(999)9999-99-99",
+    "mask": "8(999)999-99-99",
     "removeMaskOnSubmit": true
   });
 
