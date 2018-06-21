@@ -736,32 +736,38 @@ header {
       #portfolio p a:hover {
         background: white;
         color: #35674d; }
-  #portfolio #work--1 {
+  #portfolio #work--bonadea {
     background-image: url("../img/projects/bonadea.jpg");
     background-position: center;
     -webkit-background-size: cover;
             background-size: cover; }
-  #portfolio #work--2 {
-    background-image: url("../img/projects/industrial.jpg");
-    -webkit-background-size: cover;
-            background-size: cover; }
-  #portfolio #work--3 {
+  #portfolio #work--photo-portfolio {
     background-image: url("../img/projects/photo-portfolio.jpg");
     background-position: left top;
     -webkit-background-size: cover;
             background-size: cover; }
-  #portfolio #work--4 {
+  #portfolio #work--christmas-sale {
     background-image: url("../img/projects/christmas.jpg");
     background-position: center top;
     -webkit-background-size: cover;
             background-size: cover; }
-  #portfolio #work--5 {
+  #portfolio #work--pahu-shop {
     background-image: url("../img/projects/pahu.jpg");
     background-position: center top;
     -webkit-background-size: cover;
             background-size: cover; }
-  #portfolio #work--6 {
+  #portfolio #work--bakery-temp {
     background-image: url("../img/projects/bakery.jpg");
+    background-position: center top;
+    -webkit-background-size: cover;
+            background-size: cover; }
+  #portfolio #work--cosmic {
+    background-image: url("../img/projects/cosmic.jpg");
+    background-position: center top;
+    -webkit-background-size: cover;
+            background-size: cover; }
+  #portfolio #work--grand-smeta {
+    background-image: url("../img/projects/grand-smeta.jpg");
     background-position: center top;
     -webkit-background-size: cover;
             background-size: cover; }
@@ -813,6 +819,11 @@ header {
           font-size: 16px; }
           #get-in-touch .get-in-touch_box:first-child .get-in-touch_row p:last-child a:hover {
             text-decoration: none; }
+  #get-in-touch .get-in-touch_box_kwork a {
+    margin: 0 auto;
+    display: block;
+    width: 180px;
+    margin-top: 10px; }
 
 footer {
   text-align: center;

@@ -75,7 +75,8 @@
             <a>CSS3</a>
             <a>JavaScript</a>
             <a>jQuery</a>
-            <a>Bootstrap 3</a>
+            <a>Bootstrap 3 & 4</a>
+            <a>Bulma</a>
             <a>Wordpress</a>
             <p class="comment">// мои навыки</p>
           </div>
@@ -86,26 +87,28 @@
         <span id="portfolio_href"></span>
         <div class="section_subject"><a>Портфолио</a></div>
         <div class="owl-carousel owl-theme portfolio_slider">
-          <div class="portfolio_box" id="work--1">
+          <div class="portfolio_box" id="work--bonadea">
             <div class="portfolio_box-overlay clearfix">
               <h2>bonadea-af.ru</h2>
               <p>многостраничный сайт-визитка микрофинансовой компании</p>
-
               <a href="http://bonadea-af.ru" target="_blank">Посмотреть</a>
-
             </div>
           </div>
-          <div class="portfolio_box" id="work--2">
+          <div class="portfolio_box" id="work--cosmic">
             <div class="portfolio_box-overlay clearfix">
-              <h2>Industrial Shop</h2>
-              <p>сайт интернет-магазина в индустриальном стиле</p>
-              <div class="portfolio_btns">
-                <a href="projects/industrial/index.html" target="_blank">Посмотреть</a>
-                <a href="https://github.com/d-kurochkin/d-kurochkin.github.io/tree/master/projects/industrial" target="_blank" title="Исходный код"><i class="fa fa-github" aria-hidden="true"></i></a>
-              </div>
+              <h2>COSMIC.GLASS</h2>
+              <p>Landing Page для франшизы защитных стекол</p>
+              <a href="http://cosmic.glass" target="_blank">Посмотреть</a>
             </div>
           </div>
-          <div class="portfolio_box" id="work--3">
+          <div class="portfolio_box" id="work--grand-smeta">
+            <div class="portfolio_box-overlay clearfix">
+              <h2>Гранд-смета</h2>
+              <p>Landing Page для курса повышения квалификации "Гранд-смета"</p>
+              <a href="img/projects/grand-smeta-full.png" target="_blank">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio_box" id="work--photo-portfolio">
             <div class="portfolio_box-overlay clearfix">
               <h2>Портфолио фотографа</h2>
               <p>сайт-портфолио фотографа Александра Прокопского</p>
@@ -115,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="portfolio_box" id="work--4">
+          <div class="portfolio_box" id="work--christmas-sale">
             <div class="portfolio_box-overlay clearfix">
               <h2>Christmas! Sale</h2>
               <p>промо-сайт рождественской распродажи</p>
@@ -125,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="portfolio_box" id="work--5">
+          <div class="portfolio_box" id="work--pahu-shop">
             <div class="portfolio_box-overlay clearfix">
               <h2>Pahu Shop</h2>
               <p>магазин дизайнерской мебели</p>
@@ -135,7 +138,7 @@
               </div>
             </div>
           </div>
-          <div class="portfolio_box" id="work--6">
+          <div class="portfolio_box" id="work--bakery-temp">
             <div class="portfolio_box-overlay clearfix">
               <h2>Gustaso Bakery</h2>
               <p>сайт-визитка булочной</p>
@@ -174,20 +177,9 @@
               <p><a href="https://www.freecodecamp.org/d-kurochkin" target="_blank">freecodecamp.org/d-kurochkin</a></p>
             </div>
           </div>
-          <!--
-          <div class="get-in-touch_box">
-            <div class="section_form">
-              <p class="comment">// отправьте мне сообщение с помощью этой формы</p>
-              <form method="post" action="https://formspree.io/dennis.kurochkin@ya.ru">
-                <input type="text" name="Имя: " required placeholder="Ваше имя" maxlength="30"><br>
-                <input type="email" name="Почта: " required placeholder="example@domain.com" maxlength="40"><br>
-                <input type="text" name="Тема: " required placeholder="Тема сообщения" maxlength="50"><br>
-                <textarea name="Текст: " rows="10" required placeholder="Сообщение" minlength="30"></textarea><br>
-                <input type="submit" value="Отправить">
-              </form>
-            </div>
+          <div class="get-in-touch_box get-in-touch_box_kwork">
+            <a href="https://kwork.ru/user/kurochkin?ref=48718" target="_blank"><img src="https://kwork.ru/files/anywhere/32/48718-79ru.jpg" alt="Мои услуги на Kwork" width="180" height="280"></a>
           </div>
--->
 
         </div>
       </section>
@@ -201,7 +193,7 @@
     </p>
   </footer>
 
-<!--  <a href="en.html" id="en-ru" title="English version">EN</a>-->
+  <a href="en.html" id="en-ru" title="English version">EN</a>
 
   <script src="js/libs.min.js"></script>
   <script src="js/common.min.js"></script>
@@ -210,7 +202,6 @@
       $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 20,
-//        autoplay: true,
         dots: true,
         center: true,
         nav: false,
