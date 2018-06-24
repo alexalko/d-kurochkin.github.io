@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- <base href="/"> -->
+
+  <title>База отдыха «Зеркальный карп»</title>
+  <meta name="description" content="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+
+  <meta name="theme-color" content="#000">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+
+      <div class="row">
+        <div class="col">
+          <ul class="header_phones">
+            <li><a href="tel:83472984711"><i class="fas fa-phone fa-flip-horizontal"></i>+7 (347) 298-47-11</a></li>
+            <li><a href="tel:89174799999"><i class="fas fa-phone fa-flip-horizontal"></i>+7 (917) 479-99-99</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row align-items-center header_top">
+        <div class="col-lg-3 header_logo">
+          <a href="#"><img src="img/logo.png" class="img-responsive header_logo-img" alt="База отдыха зеркальный карп"></a>
+        </div>
+        <nav class="col-lg-9 header_nav">
+          <ul class="header_nav-ul">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#prices">Цены</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#news">Новости</a></li>
+            <li><a href="#">Кафе</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="humburger">
+          <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row no-gutters">
+        <div class="col-lg-8 col-md-6 col-12 header_main_title">
+          <h2>Республика Башкортостан, Кушнаренкововский район</h2>
+          <h1>База отдыха <span>зеркальный карп</span></h1>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 header_form">
+          <form>
+            <input type="hidden" name="project_name" value="База отдыха Зеркальный карп">
+            <input type="hidden" name="admin_email" value="jasonhicks@ya.ru">
+            <input type="hidden" name="form_subject" value="Заявка с сайта Зеркальный Карп">
+            <input type="text" name="ip">
+
+            <div class="header_form_title">
+              <p><i class="fas fa-caret-left"></i> Оставить заявку
+                <i class="fas fa-caret-right"></i></p>
+            </div>
+            <div class="header_form_main">
+              <h3>3+1 - при заезде с понедельника по четверг ночь с четверга на пятницу в подарок</h3>
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                  <label for="header_form_name">Ваше имя</label>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                  <input id="header_form_name" type="text" placeholder="Иван" name="name" required min="2" max="40" pattern="^[А-Яа-яЁё\s]+$" oninvalid="this.setCustomValidity('Вводите ваше имя только кириллицей!')" oninput="this.setCustomValidity('')">
+                </div>
+              </div>
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                  <label for="header_form_tel">Ваш телефон</label>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                  <input id="header_form_tel" type="text" class="jsTel" placeholder="+7 800 200 12 12" name="telephone" pattern="[0-9-()+\s]*" required oninvalid="this.setCustomValidity('Введите ваш телефон в формате 8(918)999-99-99!')" oninput="this.setCustomValidity('')">
+                </div>
+              </div>
+              <p>Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных</p>
+              <button type="submit" class="header_btn">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="header_slider-nav">
+        <div class="header_slider-nav_circle jsHeaderCircle jsHeaderCircle1 active"></div>
+        <div class="header_slider-nav_circle jsHeaderCircle jsHeaderCircle2"></div>
+        <div class="header_slider-nav_circle jsHeaderCircle jsHeaderCircle3"></div>
+      </div>
+
+    </div>
+
+    <div class="header_down-bg-wrapper"></div>
+  </header>
+
+
+
+  <section class="services" id="services">
+    <div class="container">
+
+      <h2>Пару слов<br><a href="#">о наших услугах</a></h2>
+
+      <div class="row services_main text-center">
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fas fa-home"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fas fa-tint"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <img src="img/services/fish.svg" alt="Рыбалка">
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fas fa-smile"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fas fa-tree"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fas fa-snowflake"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 services_main_elem">
+          <a href="#" class="services_main_elem_a-container">
+            <div class="services_main_elem_img-container">
+              <i class="fas fa-star"></i>
+            </div>
+          </a>
+          <h3><a href="#">Коттеджи</a></h3>
+          <p>Проживание в доме от четырех до двадцати человек</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="prize-form prize-form-1 text-center">
+    <div class="container">
+      <div class="prize-form_container">
+        <form>
+          <input type="hidden" name="project_name" value="База отдыха Зеркальный карп">
+          <input type="hidden" name="admin_email" value="jasonhicks@ya.ru">
+          <input type="hidden" name="form_subject" value="Заявка с сайта Зеркальный Карп">
+          <input type="text" name="ip">
+          <h3>3+1 - При заезде с понедельника по четверг ночь с четверга на пятницу В ПОДАРОК</h3>
+          <input type="text" placeholder="Ваше имя" name="name" required min="2" max="40" pattern="^[А-Яа-яЁё\s]+$" oninvalid="this.setCustomValidity('Вводите ваше имя только кириллицей!')" oninput="this.setCustomValidity('')">
+          <input type="text" class="jsTel" placeholder="Контактный телефон" name="telephone" pattern="[0-9-()+\s]*" required oninvalid="this.setCustomValidity('Введите ваш телефон в формате 8(918)999-99-99!')" oninput="this.setCustomValidity('')">
+          <p>Нажимая на кнопку «Заказать обратный звонок», я даю согласие на обработку персональных данных</p>
+          <button class="btn-blue">Заказать обратный звонок</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about_content">
+          <div class="about_img-container">
+            <img src="img/about/img.png" class="" alt="База отдыха Зеркальный Карп">
+          </div>
+          <h2>Пару слов<br><a href="#">о нашей базе отдыха</a></h2>
+          <p>Многие жители современного мегаполиса настолько привыкли находиться в центре суеты и нескончаемого движения, что порой и не замечают никакого дискомфорта от такого жизненного ритма. Но такую жизнь никак нельзя назвать правильной, а значит нужно что-то менять, чтобы подарить организму возможность отдыхать и набираться свежих сил для полноценной деятельности.</p>
+
+          <p>Некоторые туристы предпочитают не напрягаться, а раз в год посещать заграничные курорты. Безусловно, такой отдых пойдет на пользу вашему организму. Но есть причины, по которым такие поездки не всегда возможны для современного населения.</p>
+
+          <p>И тогда на выручку приходят многочисленные базы отдыха, расположенные на территории нашей республики. Одним из таких вариантов является уникальная турбаза «Зеркальный карп».</p>
+
+          <p>База отдыха подкупает своим прекрасным месторасположением. Находится «Зеркальный карп» всегда в 40 километров от столицы Башкирии, а значит уфимцы и жители близлежащих городов становятся на турбазе желанными и частыми гостями.</p>
+
+          <p>Окружающая природа «Зеркального карпа» также не подвела любителей провести выходные в единении с тишиной и красотами башкирских турбаз.</p>
+
+          <p>База отдыха «Зеркальный карп» отличается современными и привлекательными условиями для платной рыбалки. Мы уверены, что поклонники рыбной ловли будут приятно удивлены богатым уловом, наличием пункта проката оборудования, комфортными условиями для проживания и богатой инфраструктурой базы.</p>
+
+          <p>Если вы посетили турбазу с целью не просто посидеть на берегу с удочкой, но и поразвлечься, то нет никаких проблем. Администрация «Зеркального карпа» позаботилась о том, чтобы здесь было комфортно всем без исключения. К вашим услугам предусмотрена целебная русская банька, возможности для активного отдыха и уютное кафе, где вы сможете прекрасно завершить свой день.</p>
+
+          <p>Отдых на лоне природы не только сплотит ваших сотрудников, но и поможет им чудесно отдохнуть вдали от шума большого города. А довольные сотрудники гарантировано отплатят вам за прекрасный отдых своими трудовыми достижениями. Тем более, что приветливые сотрудники и современный сервис смогут удовлетворить даже самых взыскательных гостей базы отдыха.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="prices" id="prices">
+    <div class="container">
+      <div class="row">
+        <h2>Пару слов<br><a href="#">о наших ценах</a></h2>
+      </div>
+      <div class="row">
+        <dl class="accordion">
+
+          <dt>
+            <a href="" class="width-100">Коттеджи</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <thead>
+                <tr>
+                  <th>Коттеджи</th>
+                  <th>Описание</th>
+                  <th>Цена</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>Проживание в доме до четырех человек</td>
+                <td>В каждом доме своя баня. Уединенная зона отдыха. Индивидуальный выход к воде.</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+              <tr>
+                <td>Проживание в доме до шести человек</td>
+                <td>Большой дом с четырьмя отдельными комнатами на шесть человек, каждая со своим входом. И отдельной мангальной зоной.</td>
+                <td>от <span>4500 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+              <tr>
+                <td>Проживание в доме до восьми человек</td>
+                <td>Дом с двумя отдельными комнатами на четыре человека. Можно обьеденить в один дом на восемь человек. Одна зона отдыха для всего дома. Свой выход к воде.</td>
+                <td>от <span>6000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+              <tr>
+                <td>Проживание в доме до шестнадцати человек</td>
+                <td>Коттедж с тремя спальными комнатами и кухней или коттедж с двумя спальными комнатами, банкетным залом и бильярдом. У домов своя развлекательная площадка.</td>
+                <td>от <span>9000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+              <tr>
+                <td>Проживание в доме до восемнадцати человек</td>
+                <td>Большой коттедж с банкетным залом</td>
+                <td>от <span>12000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+              <tr>
+                <td>Проживание в доме до двадцати человек</td>
+                <td>2-х этажный дом VIP класса со своим полуостровом, беседкой и развлекательной зоной</td>
+                <td>от <span>20000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+              <tr>
+                <td>*Заезд осуществляется с 14:00 до 12:00 следующего дня</td>
+                <td></td>
+                <td class="accordion_comment">*цена за сутки</td>
+              </tr>
+            </table>
+          </dd>
+
+          <dt>
+            <a href="" class="width-100">Бани</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <tr>
+                <td>Текст</td>
+                <td>Текст</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+            </table>
+          </dd>
+
+          <dt>
+            <a href="" class="width-100">Отдых на природе</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <tr>
+                <td>Текст</td>
+                <td>Текст</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+            </table>
+          </dd>
+
+          <dt>
+            <a href="" class="width-100">Рыбалка</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <tr>
+                <td>Текст</td>
+                <td>Текст</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+            </table>
+          </dd>
+
+          <dt>
+            <a href="" class="width-100">Развлечения</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <tr>
+                <td>Текст</td>
+                <td>Текст</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+            </table>
+          </dd>
+
+          <dt>
+            <a href="" class="width-100">Летний отдых</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <tr>
+                <td>Текст</td>
+                <td>Текст</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+            </table>
+          </dd>
+
+          <dt>
+            <a href="" class="width-100">Зимний отдых</a>
+            <div>Описание</div>
+            <div>Цена</div>
+            <div class="accordion_toggle">+</div>
+          </dt>
+          <dd>
+            <table>
+              <tr>
+                <td>Текст</td>
+                <td>Текст</td>
+                <td>от <span>3000 <i class="fas fa-ruble-sign"></i></span></td>
+              </tr>
+            </table>
+          </dd>
+
+        </dl>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="questions">
+    <div class="container">
+      <div class="row">
+        <h2>Остались дополнительные вопросы?</h2>
+        <h3>Менеджер свяжется с вами в течении нескольких минут</h3>
+        <p>Нажимая на кнопку «Заказать обратный звонок», я даю согласие на обработку персональных данных</p>
+        <form class="row questions_form">
+          <input type="hidden" name="project_name" value="База отдыха Зеркальный карп">
+          <input type="hidden" name="admin_email" value="jasonhicks@ya.ru">
+          <input type="hidden" name="form_subject" value="Заявка с сайта Зеркальный Карп">
+          <input type="text" name="ip">
+          <input type="text" class="jsTel" placeholder="Телефон" name="telephone" pattern="[0-9-()+\s]*" required oninvalid="this.setCustomValidity('Введите ваш телефон в формате 8(918)999-99-99!')" oninput="this.setCustomValidity('')">
+          <button class="btn-blue" type="submit">Заказать обратный звонок</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2><a href="#">Отзывы о нашей</a><br>базе отдыха</h2>
+
+      <div class="reviews_slider owl-carousel owl-theme">
+
+        <div class="item">
+          <div class="row align-items-center">
+
+            <div class="col-lg-3 col-md-4">
+              <div class="reviews_slider_review_avatar-container">
+                <img src="img/reviews/avatar-1.jpg" alt="Иван Иванов">
+              </div>
+            </div>
+
+            <div class="col-lg-9 col-md-8 reviews_slider_review_content">
+              <h3 class="reviews_slider_review_name">Иван Иванов</h3>
+              <p class="reviews_slider_review_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere odio est tempora, doloribus ad. Minus modi ea illum nihil voluptas mollitia nesciunt quas iusto quasi fugiat dignissimos recusandae, numquam quia, placeat ratione aliquam repellat. Culpa, debitis fuga odio quidem veniam reprehenderit dolores, excepturi quas delectus ut, nesciunt a illum!
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="row align-items-center">
+
+            <div class="col-lg-3 col-md-4">
+              <div class="reviews_slider_review_avatar-container">
+                <img src="img/reviews/avatar-1.jpg" alt="Иван Иванов">
+              </div>
+            </div>
+
+            <div class="col-lg-9 col-md-8 reviews_slider_review_content">
+              <h3 class="reviews_slider_review_name">Иван Иванов</h3>
+              <p class="reviews_slider_review_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere odio est tempora, doloribus ad. Minus modi ea illum nihil voluptas mollitia nesciunt quas iusto quasi fugiat dignissimos recusandae, numquam quia, placeat ratione aliquam repellat. Culpa, debitis fuga odio quidem veniam reprehenderit dolores, excepturi quas delectus ut, nesciunt a illum!
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="row align-items-center">
+
+            <div class="col-lg-3 col-md-4">
+              <div class="reviews_slider_review_avatar-container">
+                <img src="img/reviews/avatar-1.jpg" alt="Иван Иванов">
+              </div>
+            </div>
+
+            <div class="col-lg-9 col-md-8 reviews_slider_review_content">
+              <h3 class="reviews_slider_review_name">Иван Иванов</h3>
+              <p class="reviews_slider_review_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere odio est tempora, doloribus ad. Minus modi ea illum nihil voluptas mollitia nesciunt quas iusto quasi fugiat dignissimos recusandae, numquam quia, placeat ratione aliquam repellat. Culpa, debitis fuga odio quidem veniam reprehenderit dolores, excepturi quas delectus ut, nesciunt a illum!
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="reviews_buttons"><a href="" class="btn-blue">Оставить отзыв</a></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="prize-form prize-form-2 text-center">
+    <div class="container">
+      <div class="prize-form_container">
+        <form>
+          <input type="hidden" name="project_name" value="База отдыха Зеркальный карп">
+          <input type="hidden" name="admin_email" value="jasonhicks@ya.ru">
+          <input type="hidden" name="form_subject" value="Заявка с сайта Зеркальный Карп">
+          <input type="text" name="ip">
+          <h3>3+1 - При заезде с понедельника по четверг ночь с четверга на пятницу В ПОДАРОК</h3>
+          <input type="text" placeholder="Ваше имя" name="name" required min="2" max="40" pattern="^[А-Яа-яЁё\s]+$" oninvalid="this.setCustomValidity('Вводите ваше имя только кириллицей!')" oninput="this.setCustomValidity('')">
+          <input type="text" class="jsTel" placeholder="Контактный телефон" name="telephone" pattern="[0-9-()+\s]*" required oninvalid="this.setCustomValidity('Введите ваш телефон в формате +7 (918) 999-99-99!')" oninput="this.setCustomValidity('')">
+          <p>Нажимая на кнопку «Заказать обратный звонок», я даю согласие на обработку персональных данных</p>
+          <button class="btn-blue">Заказать обратный звонок</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="news" id="news">
+    <div class="container">
+
+      <h2 class="text-center"><a href="#">Новости</a></h2>
+
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 col-md-6 news_elem">
+          <div class="news_elem_content-container">
+            <div class="news_elem_img-container">
+
+              <div class="news_elem_img-container_hide">
+                <img src="img/news/news-1.jpg" alt="Заголовок новости" class="img-responsive">
+              </div>
+
+              <div class="news_elem_img-container_date">
+                <p class="news_elem_date_day">31</p>
+                <p class="news_elem_date_month">Дек</p>
+              </div>
+
+            </div>
+
+
+            <h3>Заголовок новости</h3>
+            <p>Совет. По этому запросу вы можете найти сайты на русском языке. Указать предпочтительные.Совет. По этому запросу вы можете найти сайты на русском языке. Указать предпочтительные.</p>
+            <p>Совет. По этому запросу вы можете найти сайты на русском языке. Указать предпочтительные.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 news_elem">
+          <div class="news_elem_content-container">
+            <div class="news_elem_img-container">
+
+              <div class="news_elem_img-container_hide">
+                <img src="img/news/news-2.jpg" alt="Заголовок новости" class="img-responsive">
+              </div>
+
+              <div class="news_elem_img-container_date">
+                <p class="news_elem_date_day">31</p>
+                <p class="news_elem_date_month">Дек</p>
+              </div>
+
+            </div>
+
+            <h3>Заголовок новости</h3>
+            <p>Совет. По этому запросу вы можете найти сайты на русском языке. Указать предпочтительные. </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 news_elem">
+          <div class="news_elem_content-container">
+            <div class="news_elem_img-container">
+
+              <div class="news_elem_img-container_hide">
+                <img src="img/news/news-3.jpg" alt="Заголовок новости" class="img-responsive">
+              </div>
+
+              <div class="news_elem_img-container_date">
+                <p class="news_elem_date_day">31</p>
+                <p class="news_elem_date_month">Дек</p>
+              </div>
+
+            </div>
+
+            <h3>Заголовок новости</h3>
+            <p>Совет. По этому запросу вы можете найти сайты на русском языке. Указать предпочтительные. Совет. По этому запросу вы можете найти сайты на русском языке. Указать предпочтительные.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="news_buttons"><a href="#" class="btn btn-blue">Смотреть все новости</a></div>
+
+    </div>
+  </section>
+
+
+
+  <section class="map" id="contacts">
+    <div id="map"></div>
+    <div class="container">
+      <div class="map_text-block">
+        <div class="row align-items-center no-gutters">
+          <div class="col-md-6">
+            <div class="map_phone-list">
+              <i class="fas fa-phone fa-flip-horizontal"></i>
+              <ul>
+                <li><a href="tel:89174799999">+7 (917) 479-99-99</a></li>
+                <li><a href="tel:83472984711">+7 (347) 298-47-11</a></li>
+                <li><a href="tel:83472984711">+7 (919) 158-26-44</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="map_adress">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Республика Башкортостан, Кушнаренкововский район</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="container">
+
+      <div class="row align-items-center footer_main">
+
+        <div class="col-xl-3 col-lg-2 footer_logo">
+          <a href="#"><img src="img/logo.png" class="img-responsive header_logo-img" alt="База отдыха зеркальный карп"></a>
+        </div>
+
+        <div class="col-xl-9 col-lg-10 footer_nav">
+          <div class="row">
+            <div class="col-12">
+              <ul class="footer_nav-ul">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#prices">Цены</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#news">Новости</a></li>
+                <li><a href="#">Кафе</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-lg-12 col-xl-10 offset-xl-2">
+            <div class="row">
+              <div class="col-xl-9 col-lg-8 footer_policy">
+                <a href="#">Политика в отношении обработки персональных данных</a>
+                <a href="#">Согласие на обработку персональных данных</a>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 footer_social">
+                <div>
+                  <a href="#"><i class="fab fa-vk"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
