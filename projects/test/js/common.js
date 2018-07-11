@@ -5,6 +5,7 @@ $(function () {
     navigation: true,
     navigationPosition: 'right',
     fixedElements: '.header',
+    responsiveWidth: 1200,
     onLeave: function(index, nextIndex){
 
 		if(index == 1){
