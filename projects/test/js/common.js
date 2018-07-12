@@ -86,17 +86,14 @@ $(function () {
       input.addEventListener('input', function () {
 
         if (document.querySelector('input[data-remont-choice="1"]').checked == true) {
-          meterPrice = 1000;
+          meterPrice = 3500;
           timeText.innerHTML = squareVal.value / 2;
         } else if (document.querySelector('input[data-remont-choice="2"]').checked == true) {
-          meterPrice = 1200;
+          meterPrice = 7000;
           timeText.innerHTML = Math.round(squareVal.value / 2) * 1.5;
         } else if (document.querySelector('input[data-remont-choice="3"]').checked == true) {
-          meterPrice = 1400;
+          meterPrice = 10000;
           timeText.innerHTML = Math.round(squareVal.value / 2) * 2;
-        } else if (document.querySelector('input[data-remont-choice="4"]').checked == true) {
-          meterPrice = 1600;
-          timeText.innerHTML = Math.round(squareVal.value / 2) * 2.5;
         }
 
         if (Number(squareVal.value) >= 0 && Number(squareVal.value) < 301) {
@@ -106,7 +103,12 @@ $(function () {
 
         mainPrice = meterPrice * squareVal.value * saleAmount;
         priceText.innerHTML = Math.floor(mainPrice);
-
+        
+        if (document.querySelector('input[data-remont-choice="4"]').checked == true) {
+          timeText.innerHTML = '-';
+          saleText.innerHTML = '-';
+          priceText.innerHTML = '-';
+        }
 
       });
     });
