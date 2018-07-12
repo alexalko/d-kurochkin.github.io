@@ -194,8 +194,63 @@
 
 
     <section class="section calculator">
-      <div class="calculator_wrapper">
-        Здесь будет калькулятор
+      <div class="calculator_cont"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Калькулятор</h2>
+          </div>
+        </div>
+         <div class="row calculator_calculator align-items-center">
+           
+            <div class="col-lg-9 col-md-6">
+              <div class="calculator_calculator_inputs">
+                
+                <h3>Площадь квартиры: <span class="jsCalculatorSquareText">60</span> м<sup>2</sup></h3>
+
+                <input type="range" min="27" max="300" value="60" class="jsCalculatorSquareVal">
+
+                <div class="row calculator_btns">
+
+                  <div class="col-lg-3 col-md-6">
+                    <label class="btn" for="calculator_square_1">Косметический</label>
+                    <input type="radio" name="calculator_square" id="calculator_square_1" class="" value="" data-remont-choice="1" checked>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <label class="btn" for="calculator_square_2">Капитальный</label>
+                    <input type="radio" name="calculator_square" id="calculator_square_2" class="" value="" data-remont-choice="2">
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <label class="btn" for="calculator_square_3">Элитный</label>
+                    <input type="radio" name="calculator_square" id="calculator_square_3" class="" value="" data-remont-choice="3">
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <label class="btn" for="calculator_square_4">Индивидуальный</label>
+                    <input type="radio" name="calculator_square" id="calculator_square_4" class="" value="" data-remont-choice="4">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+              <div class="calculator_calculator_outputs">
+                <div class="row">
+                  <div class="col-6 calculator_calculator_left">Сроки:</div>
+                  <div class="col-6 calculator_calculator_right"><span class="jsCalculatorTime">5</span> дней</div>
+                </div>
+                <div class="row">
+                  <div class="col-6 calculator_calculator_left">Стоимость:</div>
+                  <div class="col-6 calculator_calculator_right"><span class="jsCalculatorPrice">60000</span> руб.</div>
+                </div>
+                <div class="row">
+                  <div class="col-6 calculator_calculator_left">Скидка:</div>
+                  <div class="col-6 calculator_calculator_right"><span class="jsCalculatorSale">5</span>%</div>
+                </div>
+              </div>
+
+         </div>
+        </div>
       </div>
     </section>
 
@@ -487,6 +542,13 @@
 
           </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <div class="faq_btn">
+              <a href="questions.html" class="btn">Задать вопрос</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -497,7 +559,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h2>Отзывы</h2>
+            <h2><a href="reviews.html" title="Смотреть все отзывы">Отзывы</a></h2>
           </div>
         </div>
         <div class="row">
