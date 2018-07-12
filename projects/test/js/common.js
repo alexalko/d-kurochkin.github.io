@@ -90,10 +90,70 @@ $(function () {
           timeText.innerHTML = squareVal.value / 2;
         } else if (document.querySelector('input[data-remont-choice="2"]').checked == true) {
           meterPrice = 7000;
-          timeText.innerHTML = Math.round(squareVal.value / 2) * 1.5;
+
+          if (squareVal.value >= 0 && squareVal.value < 40) days = 50;
+          if (squareVal.value >= 40 && squareVal.value < 56) days = 55;
+          if (squareVal.value >= 56 && squareVal.value < 61) days = 60;
+          if (squareVal.value >= 61 && squareVal.value < 70) days = 65;
+          if (squareVal.value >= 70 && squareVal.value < 75) days = 70;
+          if (squareVal.value >= 75 && squareVal.value < 80) days = 75;
+          if (squareVal.value >= 80 && squareVal.value < 90) days = 80;
+          if (squareVal.value >= 90 && squareVal.value < 100) days = 85;
+          if (squareVal.value >= 100 && squareVal.value < 111) days = 90;
+          if (squareVal.value >= 111 && squareVal.value < 120) days = 95;
+          if (squareVal.value >= 120 && squareVal.value < 131) days = 100;
+          if (squareVal.value >= 131 && squareVal.value < 141) days = 105;
+          if (squareVal.value >= 141 && squareVal.value < 150) days = 110;
+          if (squareVal.value >= 150 && squareVal.value < 160) days = 115;
+          if (squareVal.value >= 160 && squareVal.value < 171) days = 120;
+          if (squareVal.value >= 171 && squareVal.value < 181) days = 125;
+          if (squareVal.value >= 181 && squareVal.value < 191) days = 130;
+          if (squareVal.value >= 191 && squareVal.value < 201) days = 135;
+          if (squareVal.value >= 201 && squareVal.value < 211) days = 140;
+          if (squareVal.value >= 211 && squareVal.value < 221) days = 145;
+          if (squareVal.value >= 221 && squareVal.value < 230) days = 150;
+          if (squareVal.value >= 230 && squareVal.value < 241) days = 155;
+          if (squareVal.value >= 241 && squareVal.value < 251) days = 160;
+          if (squareVal.value >= 251 && squareVal.value < 260) days = 165;
+          if (squareVal.value >= 260 && squareVal.value < 270) days = 170;
+          if (squareVal.value >= 270 && squareVal.value < 281) days = 175;
+          if (squareVal.value >= 281 && squareVal.value < 290) days = 180;
+          if (squareVal.value >= 290 && squareVal.value < 300) days = 185;
+
+          timeText.innerHTML = days;
         } else if (document.querySelector('input[data-remont-choice="3"]').checked == true) {
           meterPrice = 10000;
-          timeText.innerHTML = Math.round(squareVal.value / 2) * 2;
+          
+          if (squareVal.value >= 0 && squareVal.value < 40) days = 60;
+          if (squareVal.value >= 40 && squareVal.value < 56) days = 65;
+          if (squareVal.value >= 56 && squareVal.value < 61) days = 70;
+          if (squareVal.value >= 61 && squareVal.value < 70) days = 75;
+          if (squareVal.value >= 70 && squareVal.value < 75) days = 80;
+          if (squareVal.value >= 75 && squareVal.value < 80) days = 85;
+          if (squareVal.value >= 80 && squareVal.value < 90) days = 90;
+          if (squareVal.value >= 90 && squareVal.value < 100) days = 95;
+          if (squareVal.value >= 100 && squareVal.value < 111) days = 100;
+          if (squareVal.value >= 111 && squareVal.value < 120) days = 105;
+          if (squareVal.value >= 120 && squareVal.value < 131) days = 110;
+          if (squareVal.value >= 131 && squareVal.value < 141) days = 115;
+          if (squareVal.value >= 141 && squareVal.value < 150) days = 120;
+          if (squareVal.value >= 150 && squareVal.value < 160) days = 125;
+          if (squareVal.value >= 160 && squareVal.value < 171) days = 130;
+          if (squareVal.value >= 171 && squareVal.value < 181) days = 135;
+          if (squareVal.value >= 181 && squareVal.value < 191) days = 140;
+          if (squareVal.value >= 191 && squareVal.value < 201) days = 145;
+          if (squareVal.value >= 201 && squareVal.value < 211) days = 150;
+          if (squareVal.value >= 211 && squareVal.value < 221) days = 155;
+          if (squareVal.value >= 221 && squareVal.value < 230) days = 160;
+          if (squareVal.value >= 230 && squareVal.value < 241) days = 165;
+          if (squareVal.value >= 241 && squareVal.value < 251) days = 170;
+          if (squareVal.value >= 251 && squareVal.value < 260) days = 175;
+          if (squareVal.value >= 260 && squareVal.value < 270) days = 180;
+          if (squareVal.value >= 270 && squareVal.value < 281) days = 185;
+          if (squareVal.value >= 281 && squareVal.value < 290) days = 190;
+          if (squareVal.value >= 290 && squareVal.value < 300) days = 195;
+
+          timeText.innerHTML = days;
         }
 
         if (Number(squareVal.value) >= 0 && Number(squareVal.value) < 301) {
@@ -103,7 +163,7 @@ $(function () {
 
         mainPrice = meterPrice * squareVal.value * saleAmount;
         priceText.innerHTML = Math.floor(mainPrice);
-        
+
         if (document.querySelector('input[data-remont-choice="4"]').checked == true) {
           timeText.innerHTML = '-';
           saleText.innerHTML = '-';
@@ -114,7 +174,7 @@ $(function () {
     });
 
   }
-  
+
   calculator();
 
 
