@@ -195,6 +195,18 @@ $(function () {
   if ($('body').hasClass('faq-page') == true) {
     accord();
   }
+  if ($('body').hasClass('reviews-page') == true) {
+    $(".slick-text").slick({
+      dots: true,
+      arrows: false,
+      infinite: true,
+      centerMode: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2500
+    });
+  }
 
 
 });
