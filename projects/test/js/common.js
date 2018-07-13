@@ -207,6 +207,16 @@ $(function () {
       autoplaySpeed: 2500
     });
   }
-
+  
+  $("#modal").iziModal({
+    headerColor: '#003BD1',
+    radius: 15,
+    width: 450
+  });
+  
+  $(document).on('click', '.jsOpenModal', function (event) {
+    event.preventDefault();
+    $('#modal').iziModal('open');
+});
 
 });
