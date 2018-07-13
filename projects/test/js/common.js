@@ -39,7 +39,14 @@ $(function () {
     infinite: true,
     centerMode: false,
     slidesToShow: 2,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+     responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1
+      }
+    }]
   });
 
 
@@ -82,6 +89,13 @@ $(function () {
       squareText.innerHTML = this.value;
     });
 
+    document.querySelectorAll('.jsCalculatorRadio').forEach(elem => {
+      elem.addEventListener('click', function () {
+        document.querySelectorAll('.jsCalculatorRadio').forEach(elem => elem.classList.remove('selected'));
+        this.classList.add('selected');
+      });
+    });
+
     inputs.forEach(input => {
       input.addEventListener('input', function () {
 
@@ -118,12 +132,12 @@ $(function () {
           if (squareVal.value >= 260 && squareVal.value < 270) days = 170;
           if (squareVal.value >= 270 && squareVal.value < 281) days = 175;
           if (squareVal.value >= 281 && squareVal.value < 290) days = 180;
-          if (squareVal.value >= 290 && squareVal.value < 300) days = 185;
+          if (squareVal.value >= 290 && squareVal.value <= 300) days = 185;
 
           timeText.innerHTML = days;
         } else if (document.querySelector('input[data-remont-choice="3"]').checked == true) {
           meterPrice = 10000;
-          
+
           if (squareVal.value >= 0 && squareVal.value < 40) days = 60;
           if (squareVal.value >= 40 && squareVal.value < 56) days = 65;
           if (squareVal.value >= 56 && squareVal.value < 61) days = 70;
@@ -151,7 +165,7 @@ $(function () {
           if (squareVal.value >= 260 && squareVal.value < 270) days = 180;
           if (squareVal.value >= 270 && squareVal.value < 281) days = 185;
           if (squareVal.value >= 281 && squareVal.value < 290) days = 190;
-          if (squareVal.value >= 290 && squareVal.value < 300) days = 195;
+          if (squareVal.value >= 290 && squareVal.value <= 300) days = 195;
 
           timeText.innerHTML = days;
         }
