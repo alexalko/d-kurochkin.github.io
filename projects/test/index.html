@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body class="main">
 
   <div id="fullpage">
 
@@ -639,13 +639,13 @@
 
       <footer>
         <div class="footer_container">
-         <div class="row">
-          <div class="col-sm-6 footer_left">Все права защищены. &copy; 2018</div>
-          <div class="col-sm-6 footer_right">Разработка <a href="https://kurochkin.design">kurochkin.design</a></div>
+          <div class="row">
+            <div class="col-sm-6 footer_left">Все права защищены. &copy; 2018</div>
+            <div class="col-sm-6 footer_right">Разработка <a href="https://kurochkin.design">kurochkin.design</a></div>
           </div>
         </div>
       </footer>
-      
+
     </section>
 
 
@@ -653,6 +653,29 @@
   </div>
 
   <script src="js/scripts.min.js"></script>
+  <script>
+    // Setting Fullpage
+    $('#fullpage').fullpage({
+      lazyLoading: true,
+      navigation: true,
+      navigationPosition: 'right',
+      fixedElements: '.header',
+      responsiveWidth: 1200,
+      onLeave: function(index, nextIndex) {
+
+        if (index == 1) {
+          setTimeout(function() {
+            $('.header').addClass('header_mini');
+          }, 50)
+        } else if (nextIndex == 1) {
+          setTimeout(function() {
+            $('.header').removeClass('header_mini');
+          }, 100)
+        }
+      }
+    });
+
+  </script>
 
 </body>
 
