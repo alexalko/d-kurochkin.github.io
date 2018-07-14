@@ -34,7 +34,7 @@ body {
   min-width: 320px; }
 
 .box {
-  margin: 25px 0 0 0;
+  margin: 25px 0 0;
   background: white;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -67,12 +67,12 @@ body {
   position: fixed;
   top: 0;
   z-index: 100;
-  opacity: .9;
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.28);
-          box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.28);
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s; }
+  opacity: 0.9;
+  -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.28);
+          box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.28);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
   .fixed:hover {
     opacity: 1; }
 
@@ -88,7 +88,7 @@ body {
   background: #35674d;
   color: white;
   font-size: 16px;
-  opacity: .5;
+  opacity: 0.5;
   text-decoration: none;
   -webkit-border-bottom-right-radius: 5px;
           border-bottom-right-radius: 5px;
@@ -101,29 +101,29 @@ a,
 a:link,
 a:visited {
   color: #468966;
-  -webkit-transition: all ease .3s;
-  -o-transition: all ease .3s;
-  transition: all ease .3s; }
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
 
 a:active,
 a:hover {
   color: #35674d;
-  -webkit-transition: all ease .3s;
-  -o-transition: all ease .3s;
-  transition: all ease .3s; }
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
 
 header {
   text-align: center;
   background: #468966;
   color: white; }
-  header a:link,
-  header a:visited,
+  header a:active,
   header a:hover,
-  header a:active {
+  header a:link,
+  header a:visited {
     color: white;
     text-decoration: none; }
   header .header_main {
-    padding: 30px 25px 50px 25px;
+    padding: 30px 25px 50px;
     text-align: center; }
     @media screen and (max-width: 750px) {
       header .header_main {
@@ -141,16 +141,16 @@ header {
           font-size: 3em; } }
     header .header_main p {
       font-size: 1.5em;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 300;
       font-style: italic;
-      margin-top: .6em; }
+      margin-top: 0.6em; }
       @media screen and (max-width: 440px) {
         header .header_main p {
           font-size: 1.2em; } }
     header .header_main span {
       color: #35674d;
-      font-size: .75em; }
+      font-size: 0.75em; }
   header menu {
     background: #35674d;
     color: whitesmoke;
@@ -167,11 +167,11 @@ header {
         position: fixed;
         top: 0;
         z-index: 10;
-        -webkit-transition: height .3s ease-in-out;
-        -o-transition: height .3s ease-in-out;
-        transition: height .3s ease-in-out;
-        -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.28);
-                box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.28); } }
+        -webkit-transition: height 0.3s ease-in-out;
+        -o-transition: height 0.3s ease-in-out;
+        transition: height 0.3s ease-in-out;
+        -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.28);
+                box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.28); } }
     @media screen and (max-width: 750px) {
       header menu.menu-active {
         height: 100%; } }
@@ -199,48 +199,48 @@ header {
           header menu ul li:last-child {
             border-bottom: 0; } }
         header menu ul li a,
-        header menu ul li a:link,
-        header menu ul li a:visited,
         header menu ul li a:active,
-        header menu ul li a:hover {
+        header menu ul li a:hover,
+        header menu ul li a:link,
+        header menu ul li a:visited {
           text-decoration: none;
           color: white;
           display: inline-block;
-          padding: 2em 2em;
+          padding: 2em;
           border-right: 1px solid #244534;
-          -webkit-transition: all ease .3s;
-          -o-transition: all ease .3s;
-          transition: all ease .3s; }
+          -webkit-transition: all ease 0.3s;
+          -o-transition: all ease 0.3s;
+          transition: all ease 0.3s; }
           @media screen and (max-width: 750px) {
             header menu ul li a,
-            header menu ul li a:link,
-            header menu ul li a:visited,
             header menu ul li a:active,
-            header menu ul li a:hover {
+            header menu ul li a:hover,
+            header menu ul li a:link,
+            header menu ul li a:visited {
               border-right: 0;
               padding: 1.5em 0;
               width: 100%; } }
           @media screen and (max-height: 400px) {
             header menu ul li a,
-            header menu ul li a:link,
-            header menu ul li a:visited,
             header menu ul li a:active,
-            header menu ul li a:hover {
+            header menu ul li a:hover,
+            header menu ul li a:link,
+            header menu ul li a:visited {
               padding: 1em 0; } }
           header menu ul li a:hover,
-          header menu ul li a:link:hover,
-          header menu ul li a:visited:hover,
           header menu ul li a:active:hover,
-          header menu ul li a:hover:hover {
+          header menu ul li a:hover:hover,
+          header menu ul li a:link:hover,
+          header menu ul li a:visited:hover {
             background: #284e3a;
-            -webkit-transition: all ease .3s 0s;
-            -o-transition: all ease .3s 0s;
-            transition: all ease .3s 0s; }
+            -webkit-transition: all ease 0.3s 0s;
+            -o-transition: all ease 0.3s 0s;
+            transition: all ease 0.3s 0s; }
           header menu ul li a#menu_last-child,
-          header menu ul li a:link#menu_last-child,
-          header menu ul li a:visited#menu_last-child,
           header menu ul li a:active#menu_last-child,
-          header menu ul li a:hover#menu_last-child {
+          header menu ul li a:hover#menu_last-child,
+          header menu ul li a:link#menu_last-child,
+          header menu ul li a:visited#menu_last-child {
             border: 0; }
         @media screen and (max-width: 750px) {
           header menu ul li {
@@ -258,9 +258,9 @@ header {
       z-index: 100;
       pointer-events: none;
       opacity: 0;
-      -webkit-transition: all .3s;
-      -o-transition: all .3s;
-      transition: all .3s; }
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
       header menu .header-menu_left span {
         color: #58aa7f;
         margin-right: 5px; }
@@ -282,10 +282,10 @@ header {
           font-size: 1.7em; } }
     header menu.fixed .header-menu_left {
       pointer-events: auto;
-      -webkit-transition: all .3s;
-      -o-transition: all .3s;
-      transition: all .3s;
-      opacity: .9; }
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      opacity: 0.9; }
       @media screen and (max-width: 750px) {
         header menu.fixed .header-menu_left {
           opacity: 1; } }
@@ -321,7 +321,7 @@ header {
           display: none; } }
       @media screen and (max-width: 840px) {
         header menu .header-menu_right {
-          font-size: .9em;
+          font-size: 0.9em;
           right: 10;
           top: 7; } }
       @media screen and (max-width: 750px) {
@@ -334,14 +334,14 @@ header {
           opacity: 1; } }
     header menu.fixed .header-menu_right {
       pointer-events: auto;
-      -webkit-transition: all .3s;
-      -o-transition: all .3s;
-      transition: all .3s;
-      opacity: .9; }
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      opacity: 0.9; }
       header menu.fixed .header-menu_right:hover {
         opacity: 1; }
     header menu .humburger {
-      margin: 10px 0 10px 0;
+      margin: 10px 0;
       position: absolute;
       top: 7.5;
       right: 15; }
@@ -367,9 +367,9 @@ header {
         -webkit-transform: rotate(0);
             -ms-transform: rotate(0);
                 transform: rotate(0);
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         opacity: 1; }
         header menu .humburger .line:nth-child(2n + 2) {
           -webkit-border-top-left-radius: 0;
@@ -416,8 +416,8 @@ header {
         left: -3px; }
 
 #about-me_href,
-#portfolio_href,
-#get-in-touch_href {
+#get-in-touch_href,
+#portfolio_href {
   position: relative;
   top: -70px; }
 
@@ -427,7 +427,7 @@ header {
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   font-family: 'Open Sans Condensed', sans-serif;
   letter-spacing: 4px;
   font-size: 3em; }
@@ -502,7 +502,7 @@ header {
       @media screen and (max-width: 800px) {
         #about-me #about-me_btns a {
           padding: 7.5px 12.5px;
-          font-size: .9em; } }
+          font-size: 0.9em; } }
       @media screen and (max-width: 580px) {
         #about-me #about-me_btns a {
           -webkit-border-radius: 5px;
@@ -533,7 +533,7 @@ header {
         width: 40%; } }
     #about-me .about-me_box:first-child {
       float: left;
-      background: url("../img/about.jpg") no-repeat 0% 35%;
+      background: url("../img/about.jpg") no-repeat 0 35%;
       -webkit-background-size: cover;
               background-size: cover; }
       #about-me .about-me_box:first-child > div {
@@ -545,7 +545,7 @@ header {
           display: block;
           width: 250px;
           height: 250px;
-          margin: 50px auto 0 auto;
+          margin: 50px auto 0;
           -webkit-border-radius: 50%;
                   border-radius: 50%; } }
       @media screen and (max-width: 425px) {
@@ -562,10 +562,7 @@ header {
       width: 50%; }
       @media screen and (max-width: 769px) {
         #about-me .about-me_box:last-child {
-          padding-bottom: 40px;
-          padding-top: 30px;
-          padding-left: 20%;
-          padding-right: 20%;
+          padding: 30px 20% 40px;
           width: 100%;
           float: none;
           text-align: center; } }
@@ -611,10 +608,10 @@ header {
   padding-right: 2.19%;
   background: #468966; }
   #portfolio a,
-  #portfolio a:link,
-  #portfolio a:visited,
   #portfolio a:active,
-  #portfolio a:hover {
+  #portfolio a:hover,
+  #portfolio a:link,
+  #portfolio a:visited {
     color: white;
     text-decoration: none; }
   #portfolio .portfolio_slider {
@@ -633,18 +630,18 @@ header {
     position: relative;
     height: 400px; }
     #portfolio .portfolio_box:hover .portfolio_box-overlay {
-      opacity: .9; }
+      opacity: 0.9; }
     @media screen and (max-width: 600px) {
       #portfolio .portfolio_box {
         width: 100%;
-        margin: 0 0 2.19% 0; } }
+        margin: 0 0 2.19%; } }
   #portfolio .portfolio_box-overlay {
     background: rgba(255, 255, 255, 0.85);
     opacity: 0;
-    -webkit-transition: all ease .3s;
-    -o-transition: all ease .3s;
-    transition: all ease .3s;
-    padding: 30px 25px 30px 25px;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    padding: 30px 25px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
@@ -658,7 +655,7 @@ header {
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
     @media screen and (max-width: 1023px) {
       #portfolio .portfolio_box-overlay {
-        opacity: .9; } }
+        opacity: 0.9; } }
     #portfolio .portfolio_box-overlay h2 {
       color: white;
       font-size: 32px;
@@ -709,15 +706,20 @@ header {
         #portfolio .portfolio_box-overlay .portfolio_btns a:nth-child(2) {
           font-size: 2.5em;
           width: 24%;
-          padding: 4.5px 0 4.5px 0;
+          padding: 4.5px 0;
           -webkit-box-sizing: border-box;
                   box-sizing: border-box;
           margin-right: 0;
           line-height: 48px; }
+        #portfolio .portfolio_box-overlay .portfolio_btns a.portfolio_box_picture-link {
+          font-size: 2em !important;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          display: inline-block; }
     #portfolio .portfolio_box-overlay:hover {
-      -webkit-transition: all ease .3s;
-      -o-transition: all ease .3s;
-      transition: all ease .3s; }
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
   #portfolio p {
     clear: both;
     color: white;
@@ -771,9 +773,14 @@ header {
     background-position: center top;
     -webkit-background-size: cover;
             background-size: cover; }
+  #portfolio #work--stroimat {
+    background-image: url("../img/projects/stroimat.jpg");
+    background-position: center top;
+    -webkit-background-size: cover;
+            background-size: cover; }
 
 #get-in-touch {
-  padding: 0 25px 40px 25px; }
+  padding: 0 25px 40px; }
   @media screen and (max-width: 600px) {
     #get-in-touch {
       padding-bottom: 20px; } }
@@ -834,7 +841,7 @@ footer {
   footer p {
     font-family: 'Open Sans', sans-serif;
     padding: 2em;
-    font-size: .9em;
+    font-size: 0.9em;
     background: #468966; }
   footer a,
   footer a:link,
