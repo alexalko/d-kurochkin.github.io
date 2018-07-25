@@ -34,7 +34,6 @@
     <meta id="theme-color" content="#253E80">
     <!-- Custom Browsers Color End -->
 
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
 
   </head>
@@ -53,7 +52,9 @@
 
           <h1>
             <img src="img/logo.png" alt="Ростестстандарт">
-            <a href="">Рос<span>тест</span>стандарт</a>
+            Cамарский
+            <span>Центр</span>
+            Сертификации
           </h1>
 
         </div>
@@ -77,13 +78,13 @@
               <a href="index.html" class="nav_active">Главная</a>
             </li>
             <li class="nav_item">
-              <a data-scroll="data-scroll" href="#">Список услуг</a>
+              <a href="#">Список услуг</a>
             </li>
             <li class="nav_item">
               <a href="prices.html">Цены</a>
             </li>
             <li class="nav_item">
-              <a data-scroll="data-scroll" href="#">Контакты</a>
+              <a href="#">Контакты</a>
             </li>
           </ul>
         </div>
@@ -97,10 +98,6 @@
           <div class="col-lg-8 col-md-7 content" id="content">
 
             <div class="content_main">
-
-              <div class="row">
-                <h1>Самарский центр сертификации</h1>
-              </div>
 
               <div class="row">
                 <h2>Сертификация продукции в Самаре</h2>
@@ -858,8 +855,16 @@
 
               <div class="sidebar_section sidebar_section-contacts">
                 <h2>Контакты</h2>
-                <a href="tel:+78001009015">8 (800) 100-90-15</a>
-                <a href="ros@rosteststandart.ruu">ros@rosteststandart.ru</a>
+                <p>
+                  <i class="fas fa-mobile-alt"></i>
+                  Телефон:</p>
+                <a href="tel:+78001009015">
+                  8 (800) 100-90-15</a>
+                <p>
+                  <i class="far fa-envelope"></i>
+                  E-mail:</p>
+                <a href="ros@rosteststandart.ru">
+                  ros@rosteststandart.ru</a>
               </div>
 
             </div>
@@ -875,10 +880,15 @@
       </div>
     </footer>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+
     <script src="js/scripts.min.js"></script>
     <script>
-      $('#sidebar').stickySidebar({topSpacing: 20, bottomSpacing: 100});
-      var scroll = new SmoothScroll('a[href*="#"]');
+      $(document).ready(function () {
+        $('#sidebar').stickySidebar({topSpacing: 20, bottomSpacing: 100});
+        var scroll = new SmoothScroll('a[href*="#"]');
+      });
     </script>
 
   </body>
