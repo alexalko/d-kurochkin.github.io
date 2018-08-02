@@ -1,0 +1,143 @@
+.lightbox {
+   box-sizing: border-box;
+   padding: 20px !important;
+   position:fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   background:rgba(0,0,0,.7);
+   z-index:15000 !important;
+}
+.lightbox img {
+   position:absolute;
+   margin:auto;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   max-width:80%;
+   max-height:80%;
+}
+.lightbox-title {
+   display:block;
+   position:absolute;
+   overflow:hidden;
+   text-overflow: ellipsis;
+   height: 10%;
+   left:10%;
+   right:10%;
+   bottom:0px;
+   font-size: 14px;
+   line-height: 1.4;
+   color: white;
+   text-align: center;
+}
+.lightbox-close {
+   display:block;
+   position:absolute;
+   overflow:hidden;
+   height:50px;
+   width:50px;
+   right:10px;
+   top:10px;
+   -webkit-transform:rotate(45deg);
+   -moz-transform:rotate(45deg);
+   -ms-transform:rotate(45deg);
+   -o-transform:rotate(45deg);
+   transform:rotate(45deg);
+   outline: none !important;
+}
+.lightbox-close:before {
+   content:'';
+   display:block;
+   position:absolute;
+   height:36px;
+   width:2px;
+   left:24px;
+   top:7px;
+   background:white;
+   border-radius:1px;
+}
+.lightbox-close:after {
+   content:'';
+   display:block;
+   position:absolute;
+   width:36px;
+   height:2px;
+   top:24px;
+   left:7px;
+   background:white;
+   border-radius:1px;
+}
+.lightbox-prev, .lightbox-next {
+   display:block;
+   position:absolute;
+   overflow:hidden;
+   width:30%;
+   top:70px;
+   bottom:70px;
+   outline: none !important;
+}
+.lightbox-prev.lightbox-inactive, .lightbox-next.lightbox-inactive {
+   opacity: 0.2;
+}
+.lightbox-prev {
+   left: 0px;
+}
+.lightbox-next {
+   right: 0px;
+}
+.lightbox-prev:before,
+.lightbox-prev:after,
+.lightbox-next:before,
+.lightbox-next:after {
+   content:'';
+   display:block;
+   position:absolute;
+   width:32px;
+   height:2px;
+   top:50%;
+   background:white;
+   border-radius:1px;
+}
+.lightbox-prev:before,
+.lightbox-prev:after
+{
+   left: 16.6%;
+   margin-left: -16px;
+}
+.lightbox-next:before,
+.lightbox-next:after
+{
+   right: 16.6%;
+   margin-right: -16px;
+}
+.lightbox-prev:before,
+.lightbox-next:before
+{
+   -webkit-transform:rotate(-45deg);
+   -moz-transform:rotate(-45deg);
+   -ms-transform:rotate(-45deg);
+   -o-transform:rotate(-45deg);
+   transform:rotate(-45deg);
+}
+.lightbox-prev:after,
+.lightbox-next:after
+{
+   -webkit-transform:rotate(45deg);
+   -moz-transform:rotate(45deg);
+   -ms-transform:rotate(45deg);
+   -o-transform:rotate(45deg);
+   transform:rotate(45deg);
+}
+.lightbox-prev:before,
+.lightbox-next:after
+{
+   margin-top: -11px;
+}
+.lightbox-prev:after,
+.lightbox-next:before
+{
+   margin-top: 11px;
+}
