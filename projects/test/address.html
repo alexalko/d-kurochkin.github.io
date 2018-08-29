@@ -179,9 +179,9 @@
                   <label for="">Отчество<span class="reguired-star">*</span></label>
                   <div class="inputRow_inputBlock"><input type="text"></div>
                 </div>
-                <div class="inputRow">
+                <div class="inputRow inputRow-countryRow">
                   <label for="">Страна</label>
-                  <div class="inputRow_inputBlock inputRow_inputBlock-country">
+                  <div class="inputRow_inputBlock">
                     <p>Россия</p>
                     <a href="">Изменить страну</a>
                   </div>
@@ -284,7 +284,7 @@
               <div class="cartAside_section">
                 <div class="cartAside_wrapper">
                   <div>
-                    <h3>Доставка:</h3>
+                    <h3 class="cartAside_title">Доставка:</h3>
                     <div class="cartAside_insideSection">
                       <h4 class="cartAside_insideTitle">Стандартная</h4>
                       <p class="cartAside_description">В течение 2-3 рабочих дней</p>
@@ -320,25 +320,71 @@
               <h2>Товаров в корзине
                 <span>(3)</span></h2>
 
-              <div class="cartItem cartItem-small">
-                <div class="cartItem_imgWrapper">
-                  <div class="cartItem_imgContainer">
-                    <img src="img/products/1.png" alt="">
+                <div class="owl-carousel cartItemsSlider">
+
+                  <div class="cartItem cartItem-small">
+                    <div class="cartItem_imgWrapper">
+                      <div class="cartItem_imgContainer">
+                        <img src="img/products/1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="cartItem_content">
+                      <div class="cartItem_title">
+                        <div class="cartItem_name">GEO</div>
+                        <div class="cartItem_description">Титановое основание</div>
+                      </div>
+                      <div class="cartItem_main">
+                        <p>Совместимость с системами: NobelReplace</p>
+                        <p>Артикул: 45678</p>
+                        <p>Цена:
+                          <span class="cartItem_money">750</span></p>
+                      </div>
+                    </div>
                   </div>
+
+                  <div class="cartItem cartItem-small">
+                    <div class="cartItem_imgWrapper">
+                      <div class="cartItem_imgContainer">
+                        <img src="img/products/1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="cartItem_content">
+                      <div class="cartItem_title">
+                        <div class="cartItem_name">GEO</div>
+                        <div class="cartItem_description">Титановое основание</div>
+                      </div>
+                      <div class="cartItem_main">
+                        <p>Совместимость с системами: NobelReplace</p>
+                        <p>Артикул: 45678</p>
+                        <p>Цена:
+                          <span class="cartItem_money">750</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cartItem cartItem-small">
+                    <div class="cartItem_imgWrapper">
+                      <div class="cartItem_imgContainer">
+                        <img src="img/products/1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="cartItem_content">
+                      <div class="cartItem_title">
+                        <div class="cartItem_name">GEO</div>
+                        <div class="cartItem_description">Титановое основание</div>
+                      </div>
+                      <div class="cartItem_main">
+                        <p>Совместимость с системами: NobelReplace</p>
+                        <p>Артикул: 45678</p>
+                        <p>Цена:
+                          <span class="cartItem_money">750</span></p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="cartItem_content">
-                  <div class="cartItem_title">
-                    <div class="cartItem_name">GEO</div>
-                    <div class="cartItem_description">Титановое основание</div>
-                  </div>
-                  <div class="cartItem_main">
-                    <p>Совместимость с системами: NobelReplace</p>
-                    <p>Артикул: 45678</p>
-                    <p>Цена:
-                      <span class="cartItem_money">750</span></p>
-                  </div>
-                </div>
-              </div>
+
+
 
               <a href="" class="cartAside_itemsLink">Посмотреть весь список покупок</a>
 
@@ -362,8 +408,10 @@
       <div class="row">
         <h2 class="col">Вам может понравиться</h2>
       </div>
-      <div class="row suggestion_products">
-        <div class="col col-lg-3 col-md-6">
+      <div class="row suggestionProductRow">
+        <div class="productNav"></div>
+        <div class="owl-carousel owl-theme suggestion_products suggestionSlider">
+
           <div class="product product-small">
             <div class="product_wrapper">
               <div class="product_imgContainer">
@@ -382,8 +430,7 @@
               <div class="product_description">Это очень захватывающее описание</div>
             </div>
           </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
+
           <div class="product product-small">
             <div class="product_wrapper">
               <div class="product_imgContainer">
@@ -402,8 +449,7 @@
               <div class="product_description">Это очень захватывающее описание</div>
             </div>
           </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
+
           <div class="product product-small">
             <div class="product_wrapper">
               <div class="product_imgContainer">
@@ -422,8 +468,7 @@
               <div class="product_description">Это очень захватывающее описание</div>
             </div>
           </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
+
           <div class="product product-small">
             <div class="product_wrapper">
               <div class="product_imgContainer">
@@ -442,6 +487,45 @@
               <div class="product_description">Это очень захватывающее описание</div>
             </div>
           </div>
+
+          <div class="product product-small">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="owl-carousel owl-theme productSlider">
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+              </div>
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+
+          <div class="product product-small">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="owl-carousel owl-theme productSlider">
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+              </div>
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
