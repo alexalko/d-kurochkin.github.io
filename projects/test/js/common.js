@@ -22,4 +22,15 @@ $(function() {
     $('.header').css('box-shadow', 'none')
   });
 
+  $('.productSlider').owlCarousel({
+    items: 3,
+    nav: true,
+    dots: false,
+    navText: ['<', '>'],
+    stagePadding: 10,
+    merge: true
+  });
+
+  $('.product-autoHeight').matchHeight();
+
 });

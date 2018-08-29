@@ -9,13 +9,4 @@ $(document).ready(function () {
     mouseDrag: false
   });
 
-  $('.productSlider').owlCarousel({
-    items: 3,
-    nav: true,
-    dots: false,
-    navText: ['<', '>']
-  });
-
-  $('.product').matchHeight();
-
 });
