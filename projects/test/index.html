@@ -28,612 +28,677 @@
 
   <body>
 
-    <div class="panel">
-      <div class="container-big">
-
-        <div class="panel_city">
-          <p class="panel_cityText">Город:</p>
-          <select class="panel_citySelect jsCitySelect" name="city" id="">
-            <option value="" selected="selected">Москва</option>
-            <option value="">Санкт-Петербург</option>
-            <option value="">Краснодар</option>
-            <option value="">Красноярск</option>
-            <option value="">Тюмень</option>
-          </select>
-        </div>
-
-        <div class="panel_account">
-          <form action="" class="panel_loginForm">
-            <input class="input input-header" type="text" placeholder="Логин">
-            <input class="input input-header" type="password" placeholder="Пароль">
-          </form>
-          <a href="" class="panel_login">Войти</a>
-          <a href="" class="panel_register">Регистрация</a>
-          <a href="" class="panel_cart">
-            <img src="img/cart-icon.svg" alt="">
-            <div class="panel_items">1</div>
+    <div class="mobileMenu">
+      <div class="mobileMenu_wrapper">
+        <div class="mobileMenu_section mobileMenu_section-top">
+          <a class="hamburger">
+            <div class="hamburger_container">
+              <span class="hamburger_line-1"></span>
+              <span class="hamburger_line-2"></span>
+            </div>
           </a>
+          <div class="mobileMenu_logo"><img src="img/logo-mobile.jpg" alt=""></div>
         </div>
-
-      </div>
-    </div>
-
-    <header class="header">
-      <div class="container-big">
-        <a href="" class="header_logo"><img src="img/logo-new.jpg" alt="TizR Dental Store"></a>
-        <nav class="header_menu">
-          <ul class="header_list">
-            <li class="header_menuElem">
-              <a href="" class="header_menuLink active jsCatalogueLink">Каталог товаров</a>
+        <div class="mobileMenu_section mobileMenu_section-search">
+          <input type="text" value="Поиск">
+        </div>
+        <div class="mobileMenu_section mobileMenu_section-menu">
+          <ul class="mobileMenu_ul jsMobileMenuUl">
+            <li><a href="">Главная</a></li>
+            <li class="">
+              <a href="" class="mobileMenu_mainLink jsMainLink">Каталог товаров</a>
+              <ul>
+                <li>
+                  <a href="">Блоки CAD/CAM</a>
+                </li>
+                <li>
+                  <a href="">Титановые основания</a>
+                </li>
+                <li>
+                  <a href="">Всё для CAD/CAM производства</a>
+                </li>
+                <li>
+                  <a href="">Тест</a>
+                </li>
+                <li>
+                  <a href="">Тест</a>
+                </li>
+              </ul>
             </li>
-            <li class="header_menuElem">
-              <a href="" class="header_menuLink">Оплата и доставка</a>
-            </li>
-            <li class="header_menuElem">
-              <a href="" class="header_menuLink">Дилерам</a>
-            </li>
-            <li class="header_menuElem">
-              <a href="" class="header_menuLink">Контакты</a>
-            </li>
-            <li class="header_menuElem">
-              <a href="" class="header_menuLink header_searchIcon no-hover">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="16" viewbox="0 0 15 16">
-                  <defs>
-                    <path
-                      id="a"
-                      d="M1378.9 109.92a.29.29 0 0 1-.4-.01l-4.39-4.68a6.05 6.05 0 0 1-3.93 1.46 6.27 6.27 0 0 1-6.18-6.35c0-3.5 2.77-6.34 6.18-6.34 3.4 0 6.17 2.85 6.17 6.34 0 1.75-.69 3.33-1.8 4.48l4.37 4.67a.3.3 0 0 1-.01.43zm-3.14-9.58c0-3.16-2.5-5.74-5.58-5.74a5.67 5.67 0 0 0-5.6 5.74c0 3.17 2.51 5.74 5.6 5.74a5.67 5.67 0 0 0 5.58-5.74z"/>
-                  </defs>
-                  <use xlink:href="#a" transform="translate(-1364 -94)"/>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header_phones">
-          <a href="" class="header_phone">+7 (011) 343-53-53</a>
-          <a href="" class="header_phone">+7 (011) 343-53-53</a>
-          <a href="" class="header_phone">+7 (011) 343-53-53</a>
-        </div>
-        <div class="header_subMenu jsSubMenu">
-          <ul class="header_subList">
-            <li>
-              <a href="">
-                <img src="img/categories/1.png" alt="">
-                <h3>Блоки CAD/CAM</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/2.png" alt="">
-                <h3>Титановые основания</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/3.png" alt="">
-                <h3>Все для CAD/CAM производства</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/4.png" alt="">
-                <h3>Pre—miled абатмены</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/5.png" alt="">
-                <h3>Хирургический инструмент</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/6.png" alt="">
-                <h3>Skan marker</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/7.png" alt="">
-                <h3>Абатмены</h3>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="img/categories/8.png" alt="">
-                <h3>Винты</h3>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-
-    <section class="sliderSection">
-      <div class="container">
-        <div class="owl-dots" id="dots"></div>
-      </div>
-      <div class="owl-carousel slider">
-        <div class="slider_slide" style="background-image: url(img/slider/1.jpg)">
-          <div class="container">
-            <h2>
-              <a href="">Титановые основания</a>
-            </h2>
-            <a href="" class="slider_btn">Смотреть детали</a>
-          </div>
-        </div>
-        <div class="slider_slide" style="background-image: url(img/slider/2.jpg)">
-          <div class="container">
-            <h2>
-              <a href="">Титановые основания2</a>
-            </h2>
-            <a href="" class="slider_btn">Смотреть детали</a>
-          </div>
-        </div>
-        <div class="slider_slide" style="background-image: url(img/slider/3.jpg)">
-          <div class="container">
-            <h2>
-              <a href="">Титановые основания3</a>
-            </h2>
-            <a href="" class="slider_btn">Смотреть детали</a>
-          </div>
-        </div>
-        <div class="slider_slide" style="background-image: url(img/slider/2.jpg)">
-          <div class="container">
-            <h2>
-              <a href="">Титановые основания4</a>
-            </h2>
-            <a href="" class="slider_btn">Смотреть детали</a>
-          </div>
-        </div>
-        <div class="slider_slide" style="background-image: url(img/slider/2.jpg)">
-          <div class="container">
-            <h2>
-              <a href="">Титановые основания5</a>
-            </h2>
-            <a href="" class="slider_btn">Смотреть детали</a>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section class="container-fluid advantages">
-      <div class="row">
-        <div class="col-xl-3 col-md-6 advantages_item">
-          <img src="img/advantages/1.png" class="advantages_image-1" alt="">
-          <img src="img/advantages/1-1.png" class="advantages_image-2" alt="">
-          <h3>Опыт более 5 лет</h3>
-          <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
-        </div>
-        <div class="col-xl-3 col-md-6 advantages_item">
-          <img src="img/advantages/2.png" class="advantages_image-1" alt="">
-          <img src="img/advantages/2-2.png" class="advantages_image-2" alt="">
-          <h3>Клиенты на первом месте</h3>
-          <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
-        </div>
-        <div class="col-xl-3 col-md-6 advantages_item">
-          <img src="img/advantages/3.png" class="advantages_image-1" alt="">
-          <img src="img/advantages/3-3.png" class="advantages_image-2" alt="">
-          <h3>Самые лучшие материалы</h3>
-          <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
-        </div>
-        <div class="col-xl-3 col-md-6 advantages_item">
-          <img src="img/advantages/4.png" class="advantages_image-1" alt="">
-          <img src="img/advantages/4-4.png" class="advantages_image-2" alt="">
-          <h3>Низкие цены</h3>
-          <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="products">
-      <div class="container">
-        <div class="row">
-          <h2>Наши продукты
-            <span>(<span>9</span>)</span></h2>
-        </div>
-        <div class="row products_catalog">
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-lg-4 col-sm-6">
-            <div class="product product-autoHeight">
-              <div class="product_wrapper">
-                <div class="product_imgContainer">
-                  <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
-                </div>
-                <div class="productSlider_wrapper">
-                  <div class="owl-carousel owl-theme productSlider">
-                    <div class="productSlider_slide">
-                      <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                    <div class="productSlider_slide">
-                      <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="product_name">
-                  <a href="">Супер продукт</a>
-                </h3>
-                <div class="product_description">Это очень захватывающее описание</div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <section class="call">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 call_heading">
-            <h2 class="call_h2">Не нашли, что искали<span>?</span></h2>
-          </div>
-          <div class="col-lg-6 call_btnCont">
-            <a href="" class="call_btn">Заказать обратный звонок</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-
-      <div class="footerMenu">
-        <div class="container">
-          <div class="footerMenu_colSmall">
-            <h2>Ссылки</h2>
+            <li class=" ">
+              <a href=" " class=" ">Оплата и доставка</a>
+          </li>
+          <li class="">
+            <a href="" class="mobileMenu_mainLink jsMainLink">Дилерам</a>
             <ul>
-              <li>
-                <a href="">Каталог товаров</a>
-              </li>
-              <li>
-                <a href="">Оплата и доставка</a>
-              </li>
-              <li>
-                <a href="">Дилерам</a>
-              </li>
-              <li>
-                <a href="">Контакты</a>
-              </li>
+              <li><a href="">Тест 1</a></li>
+              <li><a href="">Тест 2</a></li>
+              <li><a href="">Тест 3</a></li>
             </ul>
-          </div>
-          <div class="footerMenu_colSmall">
-            <h2>Контакты</h2>
-            <ul class="footerMenu_telList">
-              <li>
-                <a href="" type="tel">+7 (495) 968-51-61</a>
-              </li>
-              <li>
-                <a href="" type="tel">+7 (929) 586-53-93</a>
-              </li>
-              <li>
-                <a href="" type="tel">+7 (929) 681-09-81</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footerMenu_colSmall">
-            <h2>Адрес</h2>
-            <p>г. Москва пр-т Мира ‘102,<br>стр.34 офис 202</p>
-            <a href="" class="footerMenu_addressLink">Как добраться</a>
-          </div>
-          <div class="footerMenu_colLarge footerMenu_mail">
-            <h2>Почта</h2>
-            <p>Подпишитесь на нашу рассылку и узнавайте о всех новинках первыми!</p>
-            <form action="" class="footerMenu_subForm">
-              <input type="text" class="input" placeholder="Ваша почта">
-              <input type="submit" class="btn" value="Отправить">
-            </form>
-          </div>
-        </div>
+          </li>
+          <li class="">
+            <a href="" class="">Контакты</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="container-big">
+
+      <div class="panel_city">
+        <p class="panel_cityText">Город:</p>
+        <select class="panel_citySelect jsCitySelect" name="city" id="">
+          <option value="" selected="selected">Москва</option>
+          <option value="">Санкт-Петербург</option>
+          <option value="">Краснодар</option>
+          <option value="">Красноярск</option>
+          <option value="">Тюмень</option>
+        </select>
       </div>
 
-      <div class="social">
-        <div class="social_block">
-          <a href="" class="social_elem">
-            <img src="img/social/insta-gray.png" alt="Instagram" class="social_img-gray">
-            <img src="img/social/insta-blue.png" alt="Instagram" class="social_img-blue">
-          </a>
-          <a href="" class="social_elem">
-            <img src="img/social/vk-gray.png" alt="Вконтакте" class="social_img-gray">
-            <img src="img/social/vk-blue.png" alt="Вконтакте" class="social_img-blue">
-          </a>
-          <a href="" class="social_elem">
-            <img src="img/social/fb-gray.png" alt="Facebook" class="social_img-gray">
-            <img src="img/social/fb-blue.png" alt="Facebook" class="social_img-blue">
-          </a>
-        </div>
+      <div class="panel_account">
+        <form action="" class="panel_loginForm">
+          <input class="input input-header" type="text" placeholder="Логин">
+          <input class="input input-header" type="password" placeholder="Пароль">
+        </form>
+        <a href="" class="panel_login">Войти</a>
+        <a href="" class="panel_register">Регистрация</a>
+        <a href="" class="panel_cart">
+          <img src="img/cart-icon.svg" alt="">
+          <div class="panel_items">1</div>
+        </a>
       </div>
 
-      <section class="copyright">
-        <p>© 2018 TizR</p>
-      </section>
+    </div>
+  </div>
 
-    </footer>
+  <header class="header">
+    <div class="container-big">
+      <a class="hamburger">
+        <div class="hamburger_container">
+          <span class="hamburger_line-1"></span>
+          <span class="hamburger_line-2"></span>
+        </div>
+      </a>
+      <a href="" class="header_logo"><img src="img/logo-new.jpg" alt="TizR Dental Store"></a>
+      <nav class="header_menu">
+        <ul class="header_list">
+          <li class="header_menuElem">
+            <a href="" class="header_menuLink active jsCatalogueLink">Каталог товаров</a>
+          </li>
+          <li class="header_menuElem">
+            <a href="" class="header_menuLink">Оплата и доставка</a>
+          </li>
+          <li class="header_menuElem">
+            <a href="" class="header_menuLink">Дилерам</a>
+          </li>
+          <li class="header_menuElem">
+            <a href="" class="header_menuLink">Контакты</a>
+          </li>
+          <li class="header_menuElem">
+            <a href="" class="header_menuLink header_searchIcon no-hover">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="16" viewbox="0 0 15 16">
+                <defs>
+                  <path
+                    id="a"
+                    d="M1378.9 109.92a.29.29 0 0 1-.4-.01l-4.39-4.68a6.05 6.05 0 0 1-3.93 1.46 6.27 6.27 0 0 1-6.18-6.35c0-3.5 2.77-6.34 6.18-6.34 3.4 0 6.17 2.85 6.17 6.34 0 1.75-.69 3.33-1.8 4.48l4.37 4.67a.3.3 0 0 1-.01.43zm-3.14-9.58c0-3.16-2.5-5.74-5.58-5.74a5.67 5.67 0 0 0-5.6 5.74c0 3.17 2.51 5.74 5.6 5.74a5.67 5.67 0 0 0 5.58-5.74z"/>
+                </defs>
+                <use xlink:href="#a" transform="translate(-1364 -94)"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <a href="" class="header_elem panel_cart"> <img src="img/cart-icon.svg" alt=""> <div class="panel_items">1</div> </a> -->
+      <div class="header_phones">
+        <a href="" class="header_phone">+7 (011) 343-53-53</a>
+        <a href="" class="header_phone">+7 (011) 343-53-53</a>
+        <a href="" class="header_phone">+7 (011) 343-53-53</a>
+      </div>
+      <div class="header_subMenu jsSubMenu">
+        <ul class="header_subList">
+          <li>
+            <a href="">
+              <img src="img/categories/1.png" alt="">
+              <h3>Блоки CAD/CAM</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/2.png" alt="">
+              <h3>Титановые основания</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/3.png" alt="">
+              <h3>Все для CAD/CAM производства</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/4.png" alt="">
+              <h3>Pre—miled абатмены</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/5.png" alt="">
+              <h3>Хирургический инструмент</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/6.png" alt="">
+              <h3>Skan marker</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/7.png" alt="">
+              <h3>Абатмены</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/categories/8.png" alt="">
+              <h3>Винты</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    <script defer="defer" src="js/scripts.min.js"></script>
-    <script defer="defer" src="js/front-page.js"></script>
+  </header>
 
-  </body>
+  <section class="sliderSection">
+    <div class="container">
+      <div class="owl-dots" id="dots"></div>
+    </div>
+    <div class="owl-carousel slider">
+      <div class="slider_slide" style="background-image: url(img/slider/1.jpg)">
+        <div class="container">
+          <h2>
+            <a href="">Титановые основания</a>
+          </h2>
+          <a href="" class="slider_btn">Смотреть детали</a>
+        </div>
+      </div>
+      <div class="slider_slide" style="background-image: url(img/slider/2.jpg)">
+        <div class="container">
+          <h2>
+            <a href="">Титановые основания2</a>
+          </h2>
+          <a href="" class="slider_btn">Смотреть детали</a>
+        </div>
+      </div>
+      <div class="slider_slide" style="background-image: url(img/slider/3.jpg)">
+        <div class="container">
+          <h2>
+            <a href="">Титановые основания3</a>
+          </h2>
+          <a href="" class="slider_btn">Смотреть детали</a>
+        </div>
+      </div>
+      <div class="slider_slide" style="background-image: url(img/slider/2.jpg)">
+        <div class="container">
+          <h2>
+            <a href="">Титановые основания4</a>
+          </h2>
+          <a href="" class="slider_btn">Смотреть детали</a>
+        </div>
+      </div>
+      <div class="slider_slide" style="background-image: url(img/slider/2.jpg)">
+        <div class="container">
+          <h2>
+            <a href="">Титановые основания5</a>
+          </h2>
+          <a href="" class="slider_btn">Смотреть детали</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container-fluid advantages">
+    <div class="row">
+      <div class="col-xl-3 col-md-6 advantages_item">
+        <img src="img/advantages/1.png" class="advantages_image-1" alt="">
+        <img src="img/advantages/1-1.png" class="advantages_image-2" alt="">
+        <h3>Опыт более 5 лет</h3>
+        <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
+      </div>
+      <div class="col-xl-3 col-md-6 advantages_item">
+        <img src="img/advantages/2.png" class="advantages_image-1" alt="">
+        <img src="img/advantages/2-2.png" class="advantages_image-2" alt="">
+        <h3>Клиенты на первом месте</h3>
+        <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
+      </div>
+      <div class="col-xl-3 col-md-6 advantages_item">
+        <img src="img/advantages/3.png" class="advantages_image-1" alt="">
+        <img src="img/advantages/3-3.png" class="advantages_image-2" alt="">
+        <h3>Самые лучшие материалы</h3>
+        <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
+      </div>
+      <div class="col-xl-3 col-md-6 advantages_item">
+        <img src="img/advantages/4.png" class="advantages_image-1" alt="">
+        <img src="img/advantages/4-4.png" class="advantages_image-2" alt="">
+        <h3>Низкие цены</h3>
+        <p>Мы являемся поставщиками стоматологических материалов более пяти лет</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="products">
+    <div class="container">
+      <div class="row">
+        <h2>Наши продукты
+          <span>(<span>9</span>)</span></h2>
+      </div>
+      <div class="row products_catalog">
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-4 col-sm-6">
+          <div class="product product-autoHeight">
+            <div class="product_wrapper">
+              <div class="product_imgContainer">
+                <a href="" class="product_imgLink"><img src="img/products/1.png" alt=""></a>
+              </div>
+              <div class="productSlider_wrapper">
+                <div class="owl-carousel owl-theme productSlider">
+                  <div class="productSlider_slide">
+                    <a href="" class="productSlider_imgCont"><img src="img/products/1.png" alt=""></a>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                  <div class="productSlider_slide">
+                    <div class="productSlider_imgCont"><img src="img/products/1.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="product_name">
+                <a href="">Супер продукт</a>
+              </h3>
+              <div class="product_description">Это очень захватывающее описание</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="call">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 call_heading">
+          <h2 class="call_h2">Не нашли, что искали<span>?</span></h2>
+        </div>
+        <div class="col-lg-6 call_btnCont">
+          <a href="" class="call_btn">Заказать обратный звонок</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+
+    <div class="footerMenu">
+      <div class="container">
+        <div class="footerMenu_colSmall">
+          <h2>Ссылки</h2>
+          <ul>
+            <li>
+              <a href="">Каталог товаров</a>
+            </li>
+            <li>
+              <a href="">Оплата и доставка</a>
+            </li>
+            <li>
+              <a href="">Дилерам</a>
+            </li>
+            <li>
+              <a href="">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerMenu_colSmall">
+          <h2>Контакты</h2>
+          <ul class="footerMenu_telList">
+            <li>
+              <a href="" type="tel">+7 (495) 968-51-61</a>
+            </li>
+            <li>
+              <a href="" type="tel">+7 (929) 586-53-93</a>
+            </li>
+            <li>
+              <a href="" type="tel">+7 (929) 681-09-81</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerMenu_colSmall">
+          <h2>Адрес</h2>
+          <p>г. Москва пр-т Мира ‘102,<br>стр.34 офис 202</p>
+          <a href="" class="footerMenu_addressLink">Как добраться</a>
+        </div>
+        <div class="footerMenu_colLarge footerMenu_mail">
+          <h2>Почта</h2>
+          <p>Подпишитесь на нашу рассылку и узнавайте о всех новинках первыми!</p>
+          <form action="" class="footerMenu_subForm">
+            <input type="text" class="input" placeholder="Ваша почта">
+            <input type="submit" class="btn" value="Отправить">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="social">
+      <div class="social_block">
+        <a href="" class="social_elem">
+          <img src="img/social/insta-gray.png" alt="Instagram" class="social_img-gray">
+          <img src="img/social/insta-blue.png" alt="Instagram" class="social_img-blue">
+        </a>
+        <a href="" class="social_elem">
+          <img src="img/social/vk-gray.png" alt="Вконтакте" class="social_img-gray">
+          <img src="img/social/vk-blue.png" alt="Вконтакте" class="social_img-blue">
+        </a>
+        <a href="" class="social_elem">
+          <img src="img/social/fb-gray.png" alt="Facebook" class="social_img-gray">
+          <img src="img/social/fb-blue.png" alt="Facebook" class="social_img-blue">
+        </a>
+      </div>
+    </div>
+
+    <section class="copyright">
+      <p>© 2018 TizR</p>
+    </section>
+
+  </footer>
+
+  <script defer="defer" src="js/scripts.min.js"></script>
+  <script defer="defer" src="js/front-page.js"></script>
+
+</body>
 </html>

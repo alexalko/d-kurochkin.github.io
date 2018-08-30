@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
   $('.slider').owlCarousel({
     items: 1,
@@ -8,5 +8,9 @@ $(document).ready(function () {
     dotsContainer: '#dots',
     mouseDrag: false
   });
+
+  if ($(window).width() < 768) {
+    $('.slider').owlCarousel('destroy');
+  }
 
 });
