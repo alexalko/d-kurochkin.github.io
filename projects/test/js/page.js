@@ -14,3 +14,10 @@ $('.cartItemsSlider').owlCarousel({
   margin: 50,
   loop: true
 });
+
+$('.suggestion').height( $('.suggestion').height() );
+
+// new ResizeSensor(jQuery('.product-small'), function(){
+//     console.log('content dimension changed');
+//     console.log($(this))
+// });

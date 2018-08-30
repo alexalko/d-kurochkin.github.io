@@ -26,10 +26,18 @@ $(function() {
     items: 3,
     nav: true,
     dots: false,
-    navText: ['<', '>'],
-    stagePadding: 10,
-    merge: true
+    navText: ['<', '>']
   });
+
+  $('.productSmallSlider').owlCarousel({
+    items: 3,
+    nav: true,
+    dots: false,
+    navText: ['<', '>'],
+    mouseDrag: false,
+    touchDrag: false
+  });
+
 
   $('.product-autoHeight').matchHeight();
 
