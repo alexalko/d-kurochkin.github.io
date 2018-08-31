@@ -28,6 +28,14 @@
 
   <body>
 
+    <div class="preloader">
+      <svg viewBox="0 0 120 120" width="120px" height="120px">
+        <circle class="inner" cx="60" cy="60" r="32"/>
+        <circle class="middle" cx="60" cy="60" r="38"/>
+        <circle class="outer" cx="60" cy="60" r="44"/>
+      </svg>
+    </div>
+
     <div class="mobileMenu">
       <div class="mobileMenu_wrapper">
         <div class="mobileMenu_section mobileMenu_section-top">
@@ -167,7 +175,7 @@
           </button>
         </form>
         <div class="header_subMenu jsSubMenu">
-          <ul class="header_subList">
+          <ul class="owl-carousel owl-theme header_subList jsSubMenuSlider">
             <li>
               <a href="">
                 <img src="img/categories/1.png" alt="">
