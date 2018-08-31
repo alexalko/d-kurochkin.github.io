@@ -1,5 +1,9 @@
 $(function() {
 
+  setTimeout(function() {
+    $('body').addClass('loaded');
+  }, 2500);
+
   $('.jsCitySelect').niceSelect();
 
   $('.header').css('padding-top', $('.panel').height() + 20);
@@ -23,6 +27,19 @@ $(function() {
       $('.header').css('box-shadow', 'none')
     });
   }
+
+  $('.jsSubMenuSlider').owlCarousel({
+    autoWidth: true,
+    dots: false,
+    responsive: {
+      0: {
+        autoplay: true
+      },
+      1200: {
+        autoplay: false
+      }
+    }
+  });
 
   if ($(window).width() <= 1200 && $(window).width() > 992) {
     $('.header_phones').click(function() {
@@ -56,6 +73,10 @@ $(function() {
 
 
   $('.product-autoHeight').matchHeight();
+  if ($(window).width() < 992) {
+    $('.suggestion .product-small').matchHeight();
+  }
+
 
   $('.hamburger').on('click', function(e) {
 
