@@ -50,7 +50,7 @@
             <a href="" class="header_telLink">
               <i class="fas fa-phone"></i>
               +7 (3012) 67-33-44</a>
-            <a href="" class="btn">Заказать звонок</a>
+            <a href="#popupMain" class="btn open-popup-link">Заказать звонок</a>
           </div>
         </div>
       </div>
@@ -86,8 +86,8 @@
               <i class="fas fa-star"></i>
               официльный ведущий ХК «Салават Юлаев»</h2>
             <div class="mainScreen_btns">
-              <a href="" class="btn btn-transparent">Узнать стоимость</a>
-              <a href="" class="btn">Заказать звонок</a>
+              <a href="#popupMain" class="btn btn-transparent open-popup-link">Узнать стоимость</a>
+              <a href="#popupMain" class="btn open-popup-link">Заказать звонок</a>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@
           </div>
         </div>
         <div class="row facts_facts">
-          <div class="col-lg-3 offset-lg-7">
+          <div class="col-lg-3 offset-lg-7 col-md-4 offset-md-7 col-sm-6 offset-sm-6">
             <div class="facts_fact">
               <div class="facts_factNumber">
                 <span>999+</span></div>
@@ -229,7 +229,7 @@
             </div>
           </div>
           <div class="row align-items-center saleSection_main">
-            <div class="col-lg-5 offset-lg-2 saleSection_text">
+            <div class="col-lg-5 offset-lg-2 col-md-6 saleSection_text">
               <p>Забронируйте заявку на сайте и получите скидку
               </p>
               <p class="saleSection_saleNumber">5<span>%</span></p>
@@ -253,7 +253,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
               <form action="" class="saleForm">
                 <h3 class="saleForm_h3">Заполните форму</h2>
                 <p class="saleForm_topP">Мы обязательно вам ответим</p>
@@ -274,12 +274,12 @@
       <div class="lastScreen">
         <div class="container">
           <div class="row align-items-center booking">
-            <div class="col-lg-10 booking_cite">
+            <div class="col-lg-10 col-md-9 booking_cite">
               <div class="booking_citeWrapper">
                 <p>“Я тщательно готовлюсь к каждому событию. Деловые мероприятия я провожу информативно и сдержанно, а корпоративные встречи пройдут легко и весело.”</p>
               </div>
             </div>
-            <div class="col-lg-2 booking_photo">
+            <div class="col-lg-2 col-md-3 booking_photo">
               <div class="booking_photoWrapper">
                 <img src="img/avatar.png" alt="" class="booking_img">
               </div>
@@ -298,10 +298,10 @@
             </div>
           </div>
           <form action="" class="row bottomForm">
-            <div class="col-lg-9 bottomForm_left">
+            <div class="col-lg-9 col-md-8 bottomForm_left">
               <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder='Ваш вопрос, например "Можете ли вы провести свадьбу в эту субботу?"'></textarea>
             </div>
-            <div class="col-lg-3 bottomForm_right">
+            <div class="col-lg-3 col-md-4 bottomForm_right">
               <div class="inputWrapper nameInput">
                 <input type="text" class="input" placeholder="Ваше имя" required="required">
               </div>
@@ -328,7 +328,7 @@
                   <a href="">+7 (3012) 69-22-55</a>
                 </p>
               </div>
-              <a href="" class="btn">Заказать звонок</a>
+              <a href="#popupMain" class="btn open-popup-link">Заказать звонок</a>
             </div>
           </div>
         </div>
@@ -358,8 +358,20 @@
 
     </div>
 
+      <form action="" class="white-popup mfp-hide popupMain saleForm" id="popupMain">
+        <h3 class="saleForm_h3">Заполните форму</h3>
+        <p class="saleForm_topP">Мы обязательно вам ответим</p>
+        <div class="inputWrapper nameInput">
+          <input type="text" class="input" placeholder="Ваше имя" required="required">
+        </div>
+        <div class="inputWrapper telInput">
+          <input type="tel" class="input" placeholder="Ваш телефон" required="required">
+        </div>
+        <button class="btn">Отправить</button>
+        <p class="saleForm_bottomP">Мы заботимся о вашей конфиденциальности</p>
+      </form>
+
     <script src="js/scripts.min.js"></script>
-    <script></script>
 
   </body>
 </html>
