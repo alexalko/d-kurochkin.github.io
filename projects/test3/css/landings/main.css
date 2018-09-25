@@ -358,7 +358,7 @@ nav {
 }
 
 .wrap-under-banner td:not(.img) {
-    background: url('../../../img/landings/drop/under-banner-separator.png') no-repeat right center;
+    background: url('../../img/landings/drop/under-banner-separator.png') no-repeat right center;
     padding-right: 25px;
 }
 
@@ -377,7 +377,7 @@ nav {
 
 .wrap-about {
     height: 665px;
-    background: url('../../../img/landings/drop/backgrounds/drop-about.png') no-repeat top center;
+    background: url('../../img/landings/drop/backgrounds/drop-about.png') no-repeat top center;
 }
 
 .wrap-about>.content>h2 {
@@ -407,7 +407,7 @@ nav {
     width: 350px;
     padding: 0 45px 60px 0;
     vertical-align: top;
-    background: url('../../../img/landings/drop/backgrounds/about.png') no-repeat top left;
+    background: url('../../img/landings/drop/backgrounds/about.png') no-repeat top left;
 }
 
 .wrap-about table td h4 {
@@ -440,7 +440,7 @@ nav {
 
 .wrap-products {
     height: 1280px;
-    background: url('../../../img/landings/drop/backgrounds/products.png') #f6f6f6 no-repeat bottom right;
+    background: url('../../img/landings/drop/backgrounds/products.png') #f6f6f6 no-repeat bottom right;
 }
 
 .wrap-products>.content>h4 {
@@ -565,7 +565,7 @@ nav {
 
 .wrap-work table {
     width: 100%;
-    background: url('../../../img/landings/drop/backgrounds/work.png') no-repeat;
+    background: url('../../img/landings/drop/backgrounds/work.png') no-repeat;
     border-collapse: collapse;
 }
 
@@ -607,7 +607,7 @@ nav {
 
 .wrap-reviews {
     height: 600px;
-    background: url('../../../img/landings/drop/backgrounds/reviews.png') no-repeat center;
+    background: url('../../img/landings/drop/backgrounds/reviews.png') no-repeat center;
 }
 
 .wrap-reviews>.content>h2 {
@@ -653,7 +653,7 @@ nav {
 
 .wrap-motivation {
     height: 451px;
-    background: url('../../../img/landings/drop/backgrounds/motivation.png') no-repeat center;
+    background: url('../../img/landings/drop/backgrounds/motivation.png') no-repeat center;
 }
 
 .wrap-motivation>.content>h3 {
