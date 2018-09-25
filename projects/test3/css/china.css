@@ -1,0 +1,531 @@
+#wrapper {
+    width: 100%;
+    margin-top: 17px;
+    padding-bottom: 0;
+}
+
+.bottom-panel {
+    display: none!important;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.content {
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* start banner */
+
+.wrap-banner {
+    height: 865px;
+    background: url('../img/landings/china/banner.png') no-repeat center;
+}
+
+.wrap-banner h1 {
+    text-align: center;
+    font-size: 42.2px;
+    color: #b31b4a;
+    text-transform: uppercase;
+    margin-top: 61px;
+    letter-spacing: 1px;
+}
+
+.wrap-banner h2 {
+    text-align: center;
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 25.3px;
+    margin-top: -4px;
+    letter-spacing: 0.5px;
+}
+
+.wrap-banner table {
+    width: 100%;
+    margin-top: 533px;
+}
+
+.wrap-banner table td:first-child {
+    padding-left: 0;
+}
+
+.wrap-banner table td {
+    vertical-align: middle;
+    font-size: 16px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 18px;
+}
+
+.wrap-banner table td img {
+    display: block;
+    float: left;
+    margin: -20px 33px 0;
+}
+
+.wrap-banner a {
+    font-size: 16px;
+    height: 23px;
+    width: 302px;
+    line-height: 23px;
+    margin: 28px auto;
+}
+
+/* end banner */
+
+
+/* start about */
+
+.wrap-about {
+    background: url('../img/landings/china/about.png') #fff no-repeat top center;
+    height: 500px;
+}
+
+.wrap-about h1,
+.wrap-about h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrap-about h1 {
+    font-size: 32px;
+    color: #b31b4a;
+    margin-top: 60px;
+    letter-spacing: 1.4px;
+}
+
+.wrap-about h2 {
+    font-size: 29px;
+    color: #262626;
+    letter-spacing: 1.3px;
+}
+
+.wrap-about table {
+    width: 100%;
+}
+
+
+.wrap-about table td {
+    vertical-align: bottom;
+    text-transform: uppercase;
+}
+
+.wrap-about table td.black {
+    font-size: 80px;
+    color: #0096e6;
+    position: relative;
+    line-height: 71px;
+    width: 107px;
+    text-align: right;
+    letter-spacing: 2px;
+    padding: 67px 10px 0 67px;
+}
+
+.wrap-about table td.bold {
+    color: #262626;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.wrap-about table span {
+    display: block;
+    font-size: 12px;
+    color: #8c8c8c;
+    margin-bottom: -10px;
+}
+
+.wrap-about table div {
+    position: absolute;
+    bottom: -15px;
+    right: 12px;
+    width: 31px;
+    height: 10px;
+    background: #b3b3b3;
+}
+
+/* end about */
+
+
+/* start form */
+
+.wrap-form {
+    background: url('../img/landings/china/form.png') no-repeat center;
+    height: 635px;
+}
+
+.wrap-form h1,
+.wrap-form h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrap-form h1 {
+    font-size: 32px;
+    color: #b31b4a;
+    margin-top: 70px;
+    letter-spacing: 1.4px;
+}
+
+.wrap-form h2 {
+    font-size: 29px;
+    color: #262626;
+    letter-spacing: 1.3px;
+    margin-bottom: 56px;
+}
+
+.wrap-form form {
+    float: left;
+    width: 580px;
+}
+
+.wrap-form .form-left {
+    float: left;
+    width: 272px;
+    margin-left: 1px;
+}
+
+.wrap-form .form-right {
+    float: right;
+    width: 272px;
+}
+
+.wrap-form .input-text {
+    margin: 0 0 33px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 0 5px 19px;
+    border-radius: 3px;
+    height: 50px;
+    border: 2px solid #ddd;
+    font: 12px 'G-medium';
+    outline: none;
+}
+
+.wrap-form label {
+    width: 272px;
+    height: 51px;
+    display: block;
+    cursor: pointer;
+    background: url('../img/landings/china/file.png');
+    font: 13px 'G-bold';
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 55px;
+}
+
+.wrap-form label span {
+    margin-left: 37px;
+}
+
+.wrap-form input[type="file"] {
+    display: none;
+}
+
+.wrap-form textarea {
+    padding: 14px 19px 5px;
+    display: block;
+    border: 2px solid #ddd;
+    width: 100%;
+    font: 12px 'G-medium';
+    resize: none;
+    height: 107px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 1px;
+}
+
+.wrap-form button {
+    border: none;
+    margin-top: 40px;
+    height: 48px;
+    border-radius: 2px;
+    padding-top: 19px;
+    width: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.wrap-form .form-description {
+    float: right;
+    width: 500px;
+    margin-top: 14px;
+    background: url('../img/landings/china/form-description.png') no-repeat top right;
+    height: 348px;
+}
+
+.wrap-form .form-description p {
+    margin-top: 65px;
+    line-height: 24px;
+    padding-right: 37px;
+    color: #262626;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* end form */
+
+
+/* start service */
+
+.wrap-service {
+    height: 1050px;
+    background: url('../img/landings/china/service.png') #fff no-repeat center bottom;
+}
+
+.wrap-service .content>h1,
+.wrap-service .content>h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrap-service .content>h1 {
+    font-size: 32px;
+    color: #b31b4a;
+    margin-top: 70px;
+    letter-spacing: 1.4px;
+}
+
+.wrap-service .content>h2 {
+    font-size: 29px;
+    color: #262626;
+    letter-spacing: 1.3px;
+    margin-bottom: 72px;
+}
+
+.wrap-service .grid {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: url('../img/landings/china/grid.png') no-repeat center top;
+    background-position-y: -22px;
+}
+
+.wrap-service .grid td {
+    font: 16px 'G-medium';
+    color: #262626;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 60px 56px;
+    width: 33%;
+}
+
+.wrap-service .grid td img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.wrap-service .delivery {
+    width: 100%;
+    background: url('../img/landings/china/delivery.png') no-repeat top right;
+    height: 378px;
+    margin-top: 21px;
+    overflow: hidden;
+}
+
+.wrap-service .delivery>h1,
+.wrap-service .delivery>h2 {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.wrap-service .delivery>h1 {
+    font-size: 27px;
+    color: #b31b4a;
+    margin-top: 158px;
+    letter-spacing: 1.4px;
+    margin-bottom: 11px;
+}
+
+.wrap-service .delivery>h2 {
+    font-size: 17px;
+    color: #262626;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+    line-height: 22px;
+}
+
+.wrap-service .delivery>h2 span {
+    color: #0096e6;
+}
+
+.wrap-service .delivery a {
+    font-size: 16px;
+    height: 23px;
+    width: 302px;
+    line-height: 23px;
+    margin-left: 108px;
+}
+
+/* end service */
+
+
+/* start delivery */
+
+.wrap-delivery {
+    height: 850px;
+    background: #fdfbfb;
+}
+
+.wrap-delivery h1,
+.wrap-delivery h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrap-delivery h1 {
+    font-size: 28px;
+    color: #b31b4a;
+    margin-top: 62px;
+    letter-spacing: 1.4px;
+}
+
+.wrap-delivery h2 {
+    font-size: 22px;
+    color: #262626;
+    letter-spacing: 1.3px;
+    margin-bottom: 80px;
+}
+
+.wrap-delivery .btn-buy {
+    background: #0096e6;
+    font: 12px 'G-bold';
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    margin-left: 20px;
+    height: 37px;
+    text-align: center;
+    width: 110px;
+    float: left;
+    margin-top: 15px;
+    line-height: 40px;
+    border-radius: 2px;
+}
+
+.wrap-delivery .content>a {
+    font-size: 13.8px;
+    height: 23px;
+    width: 302px;
+    line-height: 23px;
+    margin: 29px auto;
+}
+
+/* end delivery */
+
+
+/* start form 2 */
+
+.wrap-form-2 {
+    height: 204px;
+}
+
+.wrap-form-2 h1,
+.wrap-form-2 h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrap-form-2 h1 {
+    font-size: 29px;
+    color: #b31b4a;
+    margin-top: 30px;
+    letter-spacing: 1.4px;
+}
+
+.wrap-form-2 h2 {
+    font-size: 26px;
+    color: #262626;
+    letter-spacing: 1.3px;
+    margin-bottom: 26px;
+}
+
+.wrap-form-2 form {
+    width: 100%;
+    text-align: center;
+}
+
+
+.wrap-form-2 .input-text {
+    margin: 0 30px 33px 0;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 4px 0 5px 19px;
+    border-radius: 3px;
+    height: 50px;
+    border: 2px solid #ddd;
+    font: 12px 'G-medium';
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrap-form-2 label {
+    width: 75px;
+    height: 48px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/landings/china/file.png);
+    font: 12px 'G-bold';
+    background-position-y: -1px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+    vertical-align: top;
+    margin-right: 28px;
+    border-radius: 2px;
+}
+
+.wrap-form-2 label span {
+    margin-left: 37px;
+    display: none;
+}
+
+.wrap-form-2 input[type="file"] {
+    display: none;
+}
+
+
+.wrap-form-2 button {
+    border: none;
+    height: 48px;
+    border-radius: 2px;
+    padding-top: 19px;
+    width: 220px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* end form */
+
+.follow-wrap {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

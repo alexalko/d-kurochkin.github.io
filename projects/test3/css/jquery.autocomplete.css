@@ -1,0 +1,69 @@
+.autocomplete-suggestions {
+    border: 1px solid #dcdcdc;
+    background: #FFF;
+    cursor: default;
+    -webkit-box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.14);
+    -moz-box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.14);
+    box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.14);
+    padding-bottom: 57px;
+    border-radius: 3px;
+    max-width: 500px;
+}
+
+.autocomplete-suggestions .to-search-scroll {
+    max-height: inherit;
+    overflow: auto;
+}
+
+.autocomplete-suggestions>div.autocomplete-suggestion {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    border-top:1px solid #ededed;
+}
+
+.autocomplete-suggestion { padding: 10px; white-space: nowrap; overflow: hidden; border-bottom:1px solid #ededed; cursor:pointer; }
+.autocomplete-suggestion img {
+    max-width: 60px;
+    max-height: 60px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.autocomplete-suggestion span {
+    display: inline-block;
+    font: 14px 'G-bold';
+    color: #262626;
+    width: 400px;
+    white-space: normal;
+    vertical-align: middle;
+}
+
+.autocomplete-suggestion p {
+    font: 18px 'G-bold'!important;
+    color: #b31b4a!important;
+    margin-top: 6px!important;
+}
+
+.autocomplete-suggestion i {
+    font-style: normal;
+    font: 14px 'G-bold';
+}
+
+.autocomplete-suggestion span.allresults {
+    display: block;
+    padding: 12px 0;
+    text-transform: uppercase;
+    color: #0096e6;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.autocomplete-suggestion:hover>span { color:#0084b2; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected>span { color:#0084b2; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
