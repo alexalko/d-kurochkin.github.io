@@ -248,7 +248,12 @@ $(document).ready(function(){
     }
 
     $('.fancy').fancybox({
-        axWidth: 916
+        axWidth: 916,
+        helpers: {
+            overlay: {
+              locked: false
+            }
+          }
     });
 
     $('.product-litle-img a').fancybox({

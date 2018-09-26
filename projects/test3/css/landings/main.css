@@ -571,6 +571,7 @@ nav {
 
 .wrap-work {
     height: 664px;
+    background-image: url(../../img/pattern.jpg);
 }
 
 .wrap-work>.content>h2 {
