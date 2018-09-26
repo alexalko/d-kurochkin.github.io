@@ -5090,3 +5090,31 @@ fieldset[disabled] .btn {
 .rw-modal-form .btn:hover {
     cursor: pointer;
 }
+
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+    font: 14px 'G-bold';
+    color: #fff;
+    height: 39px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background: #ED143D;
+    }
+
+    .mgo-mcw-widget_position-right {
+        display: none !important;
+    }
