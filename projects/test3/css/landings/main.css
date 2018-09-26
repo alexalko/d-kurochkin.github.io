@@ -786,7 +786,7 @@ nav {
 .swiper-wrapper .swiper-slide {
     background: url(../../img/bg.jpg) no-repeat center center;
     background-size: cover;
-    height: 550px;
+    height: 500px;
 }
 
 #wrapper .wrap-banner .slide-content .btn {
@@ -4435,3 +4435,10 @@ footer.full-version .logo img {
     outline: rgb(255, 255, 255) none 0px;
 }/*#P_77:before*/
 
+.wrap-banner .slide-content {
+    top: 120px;
+}
+
+.wrap-banner {
+    height: 500px;
+}
