@@ -135,7 +135,7 @@ footer {
   margin: 0px auto;
 }
 #wrapper {
-  padding-bottom: 35px;
+  padding-bottom: 0;
   padding-top: 12px;
   position: relative;
 }
@@ -2099,7 +2099,6 @@ textarea.required,
 .row {
   padding: 10px 0;
   font-size: 15px;
-  text-transform: uppercase;
   color: #000000;
 }
 .name-row {
