@@ -4,23 +4,12 @@
 <head>
 
   <meta charset="utf-8">
-  <!-- <base href="/"> -->
 
-  <title>Teamring</title>
-  <meta name="description" content="">
+  <title>KROSS-MOS</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- Template Basic Images Start -->
-  <meta property="og:image" content="path/to/image.jpg">
-  <link rel="icon" href="img/favicon/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-  <!-- Template Basic Images End -->
-
-  <!-- Custom Browsers Color Start -->
-  <meta name="theme-color" content="#000">
-  <!-- Custom Browsers Color End -->
+  <meta name="theme-color" content="#f24841">
 
   <link rel="stylesheet" href="css/main.min.css">
 
@@ -28,610 +17,468 @@
 
 <body>
 
+  <header class="header">
+
+    <div class="header_info">
+      <div class="container">
+
+        <div class="header_row">
+          <div class="header_address header_elem">
+            <img src="img/nav-icon.png" alt="">
+            г. Москва, ул. Сумская 19
+          </div>
+          <div class="header_time header_elem">
+            <img src="img/clock-icon.png" alt="">
+            пн-пт: 09:00-20:00
+          </div>
+          <div class="header_tel header_elem">
+            <img src="img/call-icon.png" alt="">
+            <a href="">+7 343 433 233</a>
+          </div>
+          <a href="" class="btn btn-header jsOpenHeaderPopup">ЗАКАЗАТЬ ЗВОНОК</a>
+        </div>
+
+        <div class="jsCallbackPopup callbackPopup">
+          <form action="" class="callbackPopup_form">
+            <input type="text" class="callbackPopup_input" placeholder="Имя">
+            <input type="text" class="callbackPopup_input" placeholder="Телефон">
+            <button class="btn btn-callback">Отправить</button>
+          </form>
+          <div class="callbackPopup_close jsCloseHeaderPopup"><img src="img/close-icon.png" alt=""></div>
+        </div>
+
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="container">
+        <div class="nav_row">
+          <div class="icon-one">
+            <div class="hamburger hamburger-one"></div>
+          </div>
+          <a href="" class="nav_logo">Kross-mos</a>
+          <ul class="nav_list">
+            <li class="nav_item"><a href="" class="nav_link">О «KROSS-MOS»</a></li>
+            <li class="nav_item"><a href="" class="nav_link">ДОСТАВКА</a></li>
+            <li class="nav_item"><a href="" class="nav_link">ОПЛАТА</a></li>
+            <li class="nav_item"><a href="" class="nav_link">ГАРАНТИЯ</a></li>
+            <li class="nav_item"><a href="" class="nav_link">ОТЗЫВЫ</a></li>
+          </ul>
+          <a href="" class="nav_cart">
+            <img src="img/cart-big-icon.png" alt="">
+            <div class="nav_amount">2</div>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
   <section class="mainScreen">
-    <header class="header">
-      <div class="container">
-        <div class="header_logo"><a href=""><img src="img/logo.png" alt=""></a></div>
-        <nav class="nav">
-          <ul class="nav_menu">
-            <li class="nav_menuLi"><a href="" title="TRTOKEN">TRToken</a></li>
-            <li class="nav_menuLi"><a href="" title="Дорожная карта">Дорожная карта</a></li>
-            <li class="nav_menuLi"><a href="" title="Команда">Команда</a></li>
-            <li class="nav_menuLi"><a href="" title="FAQ">FAQ</a></li>
-          </ul>
-          <a href="" class="nav_login"><img src="img/login-icon.png" alt="">Вход</a>
-          <div class="nav_regAndLang">
-            <a href="" class="btn nav_reg">Регистрация</a>
-            <div class="nav_lang">
-              <a href="" class="nav_langLink">RU</a>
-              <a href="" class="nav_langLink">EN</a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
     <div class="container">
-      <div class="mainScreen_row">
-        <div class="mainScreen_text">
-          <h1 class="mainScreen_title"><span>Teamring</span> - первая глобальная интерактивная<br> бизнес-платформа</h1>
-          <div class="mainScreen_list">
-            <div href="" class="mainScreen_li">Краудфандинг</div>
-            <div href="" class="mainScreen_li">Поиск специалистов</div>
-            <div href="" class="mainScreen_li">Шеринговая экономика</div>
-            <div href="" class="mainScreen_li">Тест-драйв бизнес-идей</div>
+      <div class="mainScreen_search">
+        <form action="">
+          <input type="text" class="mainScreen_searchInput" placeholder="Поиск">
+          <button type="submit"><img src="img/search-icon.png" alt=""></button>
+        </form>
+      </div>
+      <div class="mainScreen_title">
+        КРОССОВКИ<br>
+        СО СКИДКОЙ<br>
+        <span>ДО 67%</span>
+      </div>
+      <div class="mainScreen_advantages">
+        <div class="mainScreen_advantage">
+          <div class="mainScreen_icon"><img src="img/ms-delivery.png" alt=""></div>
+          <div class="mainScreen_text">
+            БЕСПЛАТНАЯ<br>
+            <span>Доставка</span><br>
+            В ДЕНЬ ЗАКАЗА
           </div>
         </div>
-        <div class="calculator">
-          <div class="calculator_main">
-            <div class="calculator_title">До повышения цены токена осталось:</div>
-            <div class="calculator_inner">
-              <div class="timer">
+        <div class="mainScreen_advantage">
+          <div class="mainScreen_icon"><img src="img/mas-supplies.png" alt=""></div>
+          <div class="mainScreen_text">
+            ГАРАНТИЯ<br>
+            ПОДЛИННОСТИ<br>
+            <span>ОФИЦИАЛЬНЫЕ</span><br>
+            ПОСТАВЩИКИ
+          </div>
+        </div>
+        <div class="mainScreen_advantage">
+          <div class="mainScreen_icon"><img src="img/ms-feet.png" alt=""></div>
+          <div class="mainScreen_text">
+            БЕСПЛАТНАЯ<br>
+            <span>ПРИМЕРКА</span><br>
+            НЕСКОЛЬКИХ ПАР
+          </div>
+        </div>
+        <div class="mainScreen_advantage">
+          <div class="mainScreen_icon"><img src="img/ms-back.png" alt=""></div>
+          <div class="mainScreen_text">
+            ОБМЕН ИЛИ ВОЗВРАТ<br>
+            <span>В ТЕЧЕНИе 30 ДНЕЙ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                <div class="timer_week_day">
-                  <div class="timer timer_days">
-                    <span>1</span>
-                    <p>Дней</p>
-                  </div>
+  <section class="types">
+    <div class="container">
+      <div class="types_row">
+        <div class="types_type">
+          <div class="types_title">Мужские</div>
+          <div class="types_img"><img src="img/types-man.png" alt="" srcset=""></div>
+        </div>
+        <div class="types_type">
+          <div class="types_title">Женские</div>
+          <div class="types_img"><img src="img/types-woman.png" alt="" srcset=""></div>
+        </div>
+        <div class="types_type">
+          <div class="types_title">Зимнее</div>
+          <div class="types_img"><img src="img/types-winter.png" alt="" srcset=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="catalogueSection">
+    <div class="container">
+
+      <aside class="aside">
+        <div class="aside_title">Каталог</div>
+
+        <div class="aside_catalogue">
+
+          <ul class="accordion aside_catalogue">
+            <li>
+              <div class="toggle aside_elemTitle">Пол</div>
+              <ul class="aside_catalogueInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+                <li class="aside_item">
+                  <a href="">Подростковые</a>
+                  <ul>
+                    <li><a href="">Для мальчиков</a></li>
+                    <li><a href="">Для девочек</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">РАЗМЕР</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">ЦВЕТ</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">СТИЛЬ</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">СЕЗОН</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">МОДЕЛЬ</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">МАТЕРИАЛ</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">НАЗНАЧЕНИЕ</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="toggle aside_elemTitle">БРЕНДЫ</div>
+              <ul class="aside_catalogueInner aside_elemInner">
+                <li class="aside_item"><a href="">Мужские</a></li>
+                <li class="aside_item"><a href="">Женские</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="aside_actions">
+          <button class="btn">Фильтровать</button>
+          <button class="btn btn-empty">Сбросить</button>
+        </div>
+      </aside>
+
+      <div class="catalogue">
+        <div class="catalogue_inner">
+          <div class="row">
+
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
                 </div>
-                <div class="timer_time">
-                  <div class="timer timer_hours">
-                    <span>11</span>
-                    <p>Часов</p>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
                   </div>
-                  <div class="timer timer_minutes">
-                    <span>44</span>
-                    <p>Минут</p>
-                  </div>
-                  <div class="timer timer_seconds">
-                    <span>44</span>
-                    <p>Секунд</p>
-                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
                 </div>
-
-              </div>
-              <div class="calculator_description">Найдите дату,<br>узнайте цену</div>
-              <div class="calculator_roll">
-                <img src="img/calculator-sample.png" alt="">
-              </div>
-              <div class="calculator_result">$ 0.09</div>
-            </div>
-          </div>
-          <div class="calculator_textBlock">
-            <p class="calculator_text">Для всех участников
-              PRE-SALE курс TRToken
-              будет фиксирован к
-              доллару США. Оплаты
-              принимаются в фиатных
-              и криптовалютах.</p>
-            <a href="" class="calculator_buyBtn">КУПИТЬ ТОКЕНЫ</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="mission">
-    <div class="container">
-      <div class="mission_row">
-        <div class="mission_descriptionBlock">
-          <a href="" class="btn btn-wide">Скачать whitepaper</a>
-          <h2 class="mission_title">Миссия TEAMRING</h2>
-          <div class="mission_description">
-            <p>Современный традиционный бизнес является вотчиной небольшой
-              части человеческого сообщества, владеющей большей частью
-              всех имеющихся ресурсов. В таких условиях участие в
-              бизнес-процессах для большинства талантливых и работоспособных
-              людей представляется крайне затруднительным.</p>
-            <p>Шеринговая экономика, основанная на объединении ресурсов
-              миллионов, вне территориальных границ государств и рынков
-              транснациональных корпораций, в соединении с технологиями
-              децентрализованных сетей, способна изменить текущее положение
-              дел и сделать бизнес доступным для каждого. Наша миссия
-              заключается в том, чтобы всеми имеющимися силами
-              способствовать этому.</p>
-          </div>
-          <div class="mission_future">
-            <h2 class="mission_futureTitle">КАК БУДЕТ ВЫГЛЯДЕТЬ ПЛАТФОРМА TEAMRING К 2020 ГОДУ?</h2>
-            <div class="mission_futureInner">
-              <div class="mission_futureItem">
-                <div class="mission_futureNumber">10 000 000</div>
-                <div class="mission_futureText">пользователей<br>со всего мира</div>
-              </div>
-              <div class="mission_futureItem">
-                <div class="mission_futureNumber">1 000 000</div>
-                <div class="mission_futureText">партнеров<br>проекта</div>
-              </div>
-              <div class="mission_futureItem">
-                <div class="mission_futureNumber">10 000</div>
-                <div class="mission_futureText">проектов<br>различных свер деятельностей</div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="mission_video">
-          <div class="mission_videoInner">
-            <img src="img/youtube.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="advantages">
-    <div class="container">
-      <h2 class="advantages_title">Что дает своим клиентам<span>TEAMRING</span></h2>
-      <div class="owl-carousel owl-theme jsAdvantagesSlider advantages_slider">
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">3</div></div>
-          <p class="advantages_slideText">Пожизненное получение
-            дохода с каждого
-            привлеченного
-            участника</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">2</div></div>
-          <p class="advantages_slideText">Возможность превратить
-            идею в реальный
-            бизнес-проект и
-            набрать команду</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">3</div></div>
-          <p class="advantages_slideText">Возможность участия
-            в любом формате:
-            деньгами, талантами и
-            собственными ресурсами</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">4</div></div>
-          <p class="advantages_slideText">Возможность покупки
-            реальных токенов TR
-            как быстро растущим
-            в цене активом</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">5</div></div>
-          <p class="advantages_slideText">Расширенная
-            партнерская программа</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">6</div></div>
-          <p class="advantages_slideText">Пожизненное получение
-            дохода с каждого
-            привлеченного
-            участника</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">6</div></div>
-          <p class="advantages_slideText">Пожизненное получение
-            дохода с каждого
-            привлеченного
-            участника</p>
-        </div>
-        <div class="advantages_slide">
-          <div class="advantages_slideNumber"><div class="advantages_slideWrapper">6</div></div>
-          <p class="advantages_slideText">Пожизненное получение
-            дохода с каждого
-            привлеченного
-            участника</p>
-        </div>
-      </div>
-    </div>
-  </section>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey) sdfk dspfsd</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 product">
+              <div class="product_wrapper">
+                <div>
+                  <div class="product_category">Мужские кроссовки</div>
+                  <div class="product_img"><img src="img/boots-example.jpg" alt=""></div>
+                </div>
+                <div>
+                  <div class="product_title">Nike Mags from Back Future (Grey)</div>
+                  <div class="product_priceRow">
+                    <div class="product_oldPrice">15990 ₽</div>
+                    <div class="product_price">7990 ₽</div>
+                  </div>
+                  <div class="product_buy"><img src="img/cart-icon.png" alt=""></div>
+                </div>
+              </div>
+            </div>
 
-  <section class="ways">
-    <div class="container">
-      <h2 class="ways_title">Направления<span>TEAMRING</span></h2>
-      <div class="owl-carousel owl-theme jsWaysSlider ways_slider">
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-        <div class="ways_slide">
-          <div class="ways_slideImgWrapper"><div class="ways_slideImg"><img src="img/star-icon.png" alt=""></div></div>
-          <p class="ways_slideDescription">Уникальная опция проекта</p>
-          <h3 class="ways_slideTitle">Тест драйв идей</h3>
-          <a href="" class="ways_slideLink">Подробнее</a>
-        </div>
-      </div>
-  </section>
+          </div>
 
-  <section class="stats">
-    <div class="container">
-      <h2 class="stats_title">Рекламные <span>Teamring</span> токены</h2>
-      <div class="stats_subtitle">
-        ЦЕННОСТЬ ТОКЕНОВ БУДЕТ РАСТИ<br>
-        С УВЕЛИЧЕНИЕ КОЛИЧЕСТВА<br>
-        ПОЛЬЗОВАТЕЛЕЙ И НАКОПЛЕННЫХ ДАННЫХ
+        </div>
+        <div class="catalogue_pagination">
+          <a href="" class="catalogue_paginationItem">Назад</a>
+          <a href="" class="catalogue_paginationItem">1</a>
+          <a href="" class="catalogue_paginationItem current">2</a>
+          <a href="" class="catalogue_paginationItem">3</a>
+          <a href="" class="catalogue_paginationItem">...</a>
+          <a href="" class="catalogue_paginationItem">34</a>
+          <a href="" class="catalogue_paginationItem">Вперед</a>
+        </div>
       </div>
-      <div class="stats_imgs">
-        <div class="stats_stat-1"><img src="img/stats-1.png" alt=""></div>
-        <div class="stats_stat-2"><img src="img/stats-2.png" alt=""></div>
-      </div>
-    </div>
-  </section>
 
-  <section class="statsInfo">
-    <div class="container">
-      <div class="statsInfo_row">
-        <div class="statsInfo_title">
-          TRTA обмениваются на
-          рекламные услуги
-          <br>для рекламодателей
-          внутри платформы
-        </div>
-        <div class="statsInfo_text">
-          <p>
-            Рекламодатели могут приобрести рекламу исключительно за TRTA. Ограниченное количество выпущенных токенов
-            и постоянно растущий спрос со стороны рекламодателей обеспечат гарантированный рост стоимости TRTA.
-          </p>
-          <p>
-            1 TRTA равен 1000 показам выделенных рекламных объявлений на площадке TeamRing. Сегодня средняя рыночная
-            стоимость 1000 показов выделенных объявлений на тематических площадках Интернета составляет $5. Это та
-            цена,
-            которую рекламодатели будут готовы заплатить за 1 токен TRTA.
-          </p>
-          <p>
-            Модель монетизации площадки будет детализироваться и уточняться по мере развития площадки. По мере развития
-            платформы TeamRing будут вводиться различные дополнительные форматы рекламных объявлений, выделенных
-            проектов и других инструментов для продвижения проектов и специалистов внутри площадки.Это создаст
-            дополнительные форматы рекламы,которые будут реализовываться за TRTA.
-          </p>
-        </div>
-      </div>
-      <a href="" class="btn statsInfo_btn">Купить TRTOKEN</a>
     </div>
-  </section>
-
-  <section class="team">
-    <div class="container">
-      <div class="team_title">Команда консультантов по разработке платформы<span>"Team book Canada"</span></div>
-      <div class="team_row">
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="https://benjaminjurke.com/assets/images/authors/benjamin-jurke-v5.jpg" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-        <div class="team_member">
-          <div class="team_memberAvatar"><img src="img/member-photo.png" alt=""></div>
-          <div class="team_memberName">Lorem Ipsum</div>
-          <div class="team_memberDescription">Основатель и президент</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="map">
-    <div class="map_title">Дорожная карта<span>Teamring</span></div>
-    <div class="map_inner">
-      <div class="container">
-        <div class="map_item map_item-1">
-          <div class="map_itemNumber">1</div>
-          <div class="map_itemTitle">Май 2018</div>
-          <div class="map_itemText">Регистрация в проекте<br>
-            и продажа токенов TRTA</div>
-        </div>
-        <div class="map_item map_item-2">
-          <div class="map_itemNumber">2</div>
-          <div class="map_itemTitle">ИЮНЬ - ИЮЛЬ 2018</div>
-          <div class="map_itemText">Работа над архитектурой<br>
-            и интерфейсом проекта</div>
-        </div>
-        <div class="map_item map_item-3">
-          <div class="map_itemNumber">3</div>
-          <div class="map_itemTitle">ИЮЛЬ - ОКТ 2018</div>
-          <div class="map_itemText">Разработка<br>
-            проекта</div>
-        </div>
-        <div class="map_item map_item-4">
-          <div class="map_itemNumber">4</div>
-          <div class="map_itemTitle">ОКТ - ДЕК 2018</div>
-          <div class="map_itemText">Альфа-тестирование<br>
-            проекта</div>
-        </div>
-        <div class="map_item map_item-5">
-          <div class="map_itemNumber">5</div>
-          <div class="map_itemTitle">ЯНВ - ФЕВ 2019</div>
-          <div class="map_itemText">Альфа-тестирование<br>
-            проекта, отладка</div>
-        </div>
-        <div class="map_item map_item-6">
-          <div class="map_itemNumber">6</div>
-          <div class="map_itemTitle">МАРТ 2019</div>
-          <div class="map_itemText">Выход первой публичной<br>
-            версии</div>
-        </div>
-        <div class="map_item map_item-7">
-          <div class="map_itemNumber">7</div>
-          <div>
-            <div class="map_itemTitle">АПРЕЛЬ 2019</div>
-            <div class="map_itemText">Запуск рекламной<br>
-              кампании</div>
-          </div>
-        </div>
-        <div class="map_item map_item-8">
-          <div class="map_itemNumber">8</div>
-          <div class="map_itemTitle">МАЙ 2019</div>
-          <div class="map_itemText">Запуск внутренней<br>
-            биржи</div>
-        </div>
-        <div class="map_item map_item-9">
-          <div class="map_itemNumber">9</div>
-          <div class="map_itemTitle">ИЮНЬ - ИЮЛЬ 2019</div>
-          <div class="map_itemText">Разработка собственного блокчейна<br>
-            для обеспечения токенами проектов,<br>
-            размещенных на Team Ring запуска<br>
-            с ICO</div>
-        </div>
-        <div class="map_item map_item-10">
-          <div class="map_itemNumber">10</div>
-          <div class="map_itemTitle">АВГ 2019 - ...</div>
-          <div class="map_itemText">Дальнейшее развитие проекта</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="universities">
-    <div class="container">
-      <div class="universities_titleBlock">
-        <div class="universities_title">Наши эксперты</div>
-        <div class="universities_subtitle">Руководство Team Ring по необходимости будет обращаться<Br>
-          за консультациями к ведущим международным<br>
-          исследовательским университетам:</div>
-      </div>
-      <div class="universities_row">
-        <div class="universities_col">
-          <ul class="universities_list">
-            <li class="universities_item">Massachusetts Institute of Technology</li>
-            <li class="universities_item">
-              California Institute of Technology
-              Princeton University
-            </li>
-            <li class="universities_item">University of Pensilvania</li>
-            <li class="universities_item">Carnegie Mellon University</li>
-            <li class="universities_item">Duke University</li>
-            <li class="universities_item">Columbia University</li>
-            <li class="universities_item">Yale University</li>
-            <li class="universities_item">Rutgers University</li>
-            <li class="universities_item">
-              MACROMILL - a global online panel
-              panel company that combines two
-              major business units, Macromill—
-              headquartered in Tokyo—and
-              MetrixLab, headquartered in Rotterdam,
-              Netherlands;
-            </li>
-          </ul>
-        </div>
-        <div class="universities_col">
-          <ul class="universities_list">
-            <li class="universities_item">
-              Simmons Research -measures consumers’
-              preferences, behaviors and attitudes
-              through its proprietary study, the National
-              Consumer Survey (NCS);
-            </li>
-            <li class="universities_item">
-              Wood MacKenzie - specializes in research
-              for the energy, metals and mining industries;
-            </li>
-            <li class="universities_item">
-              LRW -emphasizes marketing science,
-              integrated data and modeling and analytic
-              techniques in its global consulting and
-              research services.
-            </li>
-            <li class="universities_item">
-              LRA by Deloitte -a global provider of
-              customer experience measurement
-              services for multinational companies;
-            </li>
-          </ul>
-        </div>
-        <div class="universities_col">
-          <ul class="universities_list">
-            <li class="universities_item">
-              Burke - provides custom research services with
-              a primary focus on brand strategy, innovation,
-              product development, retailer and shopper
-              insights, customer engagement, health care
-              and employee engagement;
-            </li>
-            <li class="universities_item">
-              Nielsen Holdings PLC -a global media and
-              consumer measurement and data company
-              with offices and presence in more than
-              100 countries;
-            </li>
-            <li class="universities_item">
-              IRI -delivers market, consumer and media
-              exposure information; prescriptive analytics
-              and technology platforms through offices
-              in 15 other countries;
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="info">
-    <div class="container">
-      <div class="info_row">
-        <div class="info_col">
-          <div class="info_elem">
-            <div class="info_title">ЧТО ТАКОЕ TEAMRING</div>
-            <div class="info_text">
-              TeamRing — инновационная консолидирующая
-              бизнес-среда для проектов экономики общего
-              пользования, т.н. шеринговой экономики. В
-              перспективе философия совместного пользования
-              ресурсами может сменитьфилософию
-              сверхпотребления. И этот процесс уже создал
-              пока еще разрозненныйрынок шеринга,
-              который потенциально способен объединиться,
-              вырасти до оборотов в триллионы долларов и
-              занять лидирующие позиции в мировой экономике
-              будущего.<br>
-              TeamRing — сетевая платформа, стоящая на
-              передовых рубежах этого процесса и
-              способствующая его воплощению.
-              Цель TeamRing — стать крупнейшей платформой
-              международной деловой среды.
-            </div>
-          </div>
-          <div class="info_elem">
-            <div class="info_title">НА КАКОМ BLOCKCHAIN СОЗДАН</div>
-            <div class="info_text">
-              Токен Тимринг TRTA, реализован на блокчейн
-              Ethereum, стандарт ERC20
-            </div>
-          </div>
-        </div>
-        <div class="info_col">
-          <div class="info_elem">
-            <div class="info_title">В ЧЕМ СУТЬ ШЕРИНГА?
-            </div>
-            <div class="info_text">
-              Суть шеринга — в максимально эффективном
-              использовании ресурсов: обмене по принципу
-              «win-win» и предоставлении чего-то излишнего или
-              неиспользуемого в пользование другим на
-              постоянной или временной, возмездной или
-              безвозмездной основе.
-            </div>
-          </div>
-          <div class="info_elem">
-            <div class="info_title">ЗАЧЕМ TEAMRING ИНВЕСТИЦИИ</div>
-            <div class="info_text">
-              Проект использует краудфандинг для стартового
-              финансирования разработки платформы.
-              Привлекая средства взамен на собственный
-              цифровой рекламный актив по максимально
-              низким ценам.<br>
-              Владельцы этого актива (TRTA) смогут реализовать
-              его рекламодателям по большей стоимости, тем
-              самым получить хороший профит
-            </div>
-          </div>
-        </div>
-        <div class="info_col">
-          <div class="info_elem">
-            <div class="info_title">ЧТО ТАКОЕ ТОКЕН</div>
-            <div class="info_text">
-              TRTA цифровой актив эквивалентный стоимости
-              рекламных показов на платформе TeamRing
-            </div>
-          </div>
-          <div class="info_elem">
-            <div class="info_title">ЗА СЧЕТ ЧЕГО БУДЕТ РОСТ ТОКЕНА</div>
-            <div class="info_text">
-              До появления рекламных мощностей или до момента
-              открытия рекламной площадки токен растёт по
-              установленному графику, далее цена регулируется
-              рыночным спросом на рекламу на портале TeamRing
-            </div>
-          </div>
-          <div class="info_elem">
-            <div class="info_title">ПОЧЕМУ ЛЮДИ БУДУТ ДАВАТЬ РЕКЛАМУ</div>
-            <div class="info_text">
-              За счёт продуманной концепции развития с
-              использования Баунти программы, за счёт покупки
-              рекламного трафика и за счёт ресурса партнеров,
-              проект привлечёт необходимый трафик, что создаст
-              привлекательные условия для рекламодателей
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
       <div class="footer_row">
-        <div class="footer_copyright">
-          <div class="footer_logo"><img src="img/logo.png" alt=""></div>
-          <div class="footer_copyrightText">2016-2018 &copy; <a href="">TeamRing</a></div>
+        <div class="footer_menu">
+          <div class="footer_menuTitle">Бренды</div>
+          <div class="footer_menuInner">
+            <a href="" class="footer_menuLink">Adidas</a>
+            <a href="" class="footer_menuLink">Asics</a>
+            <a href="" class="footer_menuLink">Balenciaga</a>
+            <a href="" class="footer_menuLink">Converse</a>
+            <a href="" class="footer_menuLink">Nike</a>
+            <a href="" class="footer_menuLink">Nike Air Max</a>
+            <a href="" class="footer_menuLink">Nike Air Jordan</a>
+            <a href="" class="footer_menuLink">Puma</a>
+            <a href="" class="footer_menuLink">Reebok</a>
+            <a href="" class="footer_menuLink">Timberland</a>
+            <a href="" class="footer_menuLink">Saucony</a>
+            <a href="" class="footer_menuLink">Under Armour</a>
+            <a href="" class="footer_menuLink">Vans</a>
+          </div>
         </div>
-        <div class="footer_info">
-          <p class="footer_text">Общие вопросы <a href="mailto:info@teamring.io">info@teamring.io</a></p>
-          <a href="" class="footer_link">Политика конфиденциальности</a>
-          <a href="" class="footer_link">Публичная оферта</a>
+        <div class="footer_menu">
+          <div class="footer_menuTitle">Материал</div>
+          <div class="footer_menuInner">
+            <a href="" class="footer_menuLink">Замшевые</a>
+            <a href="" class="footer_menuLink">Кожаные</a>
+            <a href="" class="footer_menuLink">Тканевые</a>
+            <a href="" class="footer_menuLink">Текстильные</a>
+          </div>
+        </div>
+        <div class="footer_menu">
+          <div class="footer_menuTitle">Сезон</div>
+          <div class="footer_menuInner">
+            <a href="" class="footer_menuLink">Летние</a>
+            <a href="" class="footer_menuLink">Зимние</a>
+            <a href="" class="footer_menuLink">Весенние</a>
+            <a href="" class="footer_menuLink">Осенние</a>
+            <a href="" class="footer_menuLink">Демисезонные</a>
+            <a href="" class="footer_menuLink">ТИП</a>
+            <a href="" class="footer_menuLink">Высокие</a>
+            <a href="" class="footer_menuLink">На липучках</a>
+            <a href="" class="footer_menuLink">На танкетке</a>
+          </div>
+        </div>
+        <div class="footer_menu">
+          <div class="footer_menuTitle">Тип</div>
+          <div class="footer_menuInner">
+            <a href="" class="footer_menuLink">Высокие</a>
+            <a href="" class="footer_menuLink">На липучках</a>
+            <a href="" class="footer_menuLink">На танкетке</a>
+          </div>
+        </div>
+        <div class="footer_menu">
+          <div class="footer_menuTitle">Помощь</div>
+          <div class="footer_menuInner">
+            <a href="" class="footer_menuLink">О «KEDRED»</a>
+            <a href="" class="footer_menuLink">Отзывы</a>
+            <a href="" class="footer_menuLink">Условия доставки</a>
+            <a href="" class="footer_menuLink">Гарантия</a>
+            <a href="" class="footer_menuLink">Подобрать размер</a>
+            <a href="" class="footer_menuLink">Контакты</a>
+          </div>
+        </div>
+        <div class="footer_contact">
+          <a href="" class="footer_tel">8 (800) 511-20-59</a>
+          <a href="" class="footer_call" data-izimodal-open="#callbackSecond">Заказать обратный звонок</a>
+          <p class="footer_address">
+            пн-пт: 09:00-20:00<br>
+            г. Москва, ул. Сумская 19
+          </p>
+          <div class="footer_social">
+            <a href="" target="_blank"><img src="img/vk-icon.png" alt=""></a>
+            <a href="" target="_blank"><img src="img/insta-icon.png" alt=""></a>
+          </div>
+          <p class="footer_copyright">
+            © kross-mos 2018<br>
+            Все права защищены
+          </p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="js/scripts.min.js"></script>
+  <div id="callbackSecond" class="callbackSecond">
+    <form action="" class="callbackPopup_form">
+      <div class="description">Закажите обратный звонок</div>
+      <input type="text" class="callbackPopup_input" placeholder="Имя">
+      <input type="text" class="callbackPopup_input" placeholder="Телефон">
+      <button class="btn btn-callback">Отправить</button>
+    </form>
+    <div class="callbackPopup_close" data-izimodal-close="#callbackSecond"><img src="img/close-icon.png" alt=""></div>
+  </div>
+
+  <div id="toTop"><img src="img/up-btn.png" alt=""></div>
+
+  <script defer src="js/scripts.min.js"></script>
 
 </body>
 
