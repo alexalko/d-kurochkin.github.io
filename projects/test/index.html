@@ -51,6 +51,7 @@
         <div class="toddler_description">Количество победителей</div>
         <div class="toddler_inner">
             <input class="range" type="range" min="1" value="1" max="15" step="1">
+            <span>1</span><span class="jsRangeAmount">1</span>
         </div>
       </div>
 
@@ -59,8 +60,13 @@
       </section>
 
       <section class="progress">
+          <span class="progress_amount">0%</span>
         <div class="progress_bar">
-          <img src="img/progress-bar.png" alt="">
+          
+          <img src="img/progress.png" alt="" id="progress_img">
+          <div class="progress_100">
+            <img src="img/progress-100.png" alt="">
+          </div>
         </div>
       </section>
 
