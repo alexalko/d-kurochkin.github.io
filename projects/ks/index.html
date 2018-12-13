@@ -9,6 +9,11 @@
     * {
       font-size: 14px !important;
     }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
@@ -44,7 +49,9 @@
 <li><span style="font-size: 14.0pt; line-height: 107%;"> Понятие конфликта в сети. <strong>Коллизия</strong> (Collision) (<strong>Конфликт</strong>) &mdash; искажение передаваемых данных в сети Ethernet, которое возникает при одновременной передаче несколькими рабочими станций.</span></li>
 <li><span style="font-size: 14.0pt; line-height: 107%;"> Понятие &laquo;домен конфликтов&raquo;. <strong>Домен коллизий (конфликтов)</strong> &ndash; часть сети, все узлы которой распознают коллизии, не зависимо от того, где она возникла. Сеть Ethernet, построенная на повторителях или концентраторах всегда образует один домен коллизий.</span></li>
 <li><span style="font-size: 14.0pt; line-height: 107%;"> Что происходит, если мост обнаруживает, что адрес назначения, содержащийся в пакете данных, находится в том же сегменте сети, что и источник? <strong>Он не пропускает данные в другие сегменты сети</strong>.</span></li>
-<li><span style="font-size: 14.0pt; line-height: 107%;"> <strong>Маршрутизатор (роутер) (</strong></span><strong><span style="font-size: 14.0pt; line-height: 107%;">router</span></strong><strong><span style="font-size: 14.0pt; line-height: 107%;">)</span></strong><span style="font-size: 14.0pt; line-height: 107%;"> &ndash; это устройство пакетной сети передачи данных, предназначенное для объединения сегментов сети и ее элементов, и служит для передачи пакетов между ними на основе каких-либо правил. Маршрутизаторы работают на сетевом (третьем) уровне модели OSI. </span></li>
+<li>
+  <img src="1.png" alt=""><img src="2.png" alt="">
+  <span style="font-size: 14.0pt; line-height: 107%;"> <strong>Маршрутизатор (роутер) (</strong></span><strong><span style="font-size: 14.0pt; line-height: 107%;">router</span></strong><strong><span style="font-size: 14.0pt; line-height: 107%;">)</span></strong><span style="font-size: 14.0pt; line-height: 107%;"> &ndash; это устройство пакетной сети передачи данных, предназначенное для объединения сегментов сети и ее элементов, и служит для передачи пакетов между ними на основе каких-либо правил. Маршрутизаторы работают на сетевом (третьем) уровне модели OSI. </span></li>
 </ol>
 <p><span style="font-size: 14.0pt; line-height: 107%;">Обычно маршрутизатор использует адрес получателя, указанный в заголовке пакета, и определяет по <strong>таблице маршрутизации</strong> путь, по которому следует передать данные. Если в таблице маршрутизации для адреса нет описанного маршрута &mdash; пакет отбрасывается.</span></p>
 <p><span style="font-size: 14.0pt; line-height: 107%;">Одной из самых <strong>важных задач</strong> маршрутизаторов является выбор оптимального маршрута передачи пакетов между подключенными сетями.</span></p>
