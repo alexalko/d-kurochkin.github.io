@@ -1,0 +1,23 @@
+.whatIs {
+  &__inner {
+    width: 1005px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 146px;
+    position: relative;
+    left: -11px;
+  }
+
+  &__subtitle {
+    margin-bottom: 27px;
+  }
+
+  &__vidCont {
+    width: 1005px;
+height: 529px;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

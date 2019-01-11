@@ -1,0 +1,70 @@
+::placeholder {
+  color: #666;
+}
+
+::selection {
+  background-color: $accent;
+  color: #fff;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  line-height: 1.65;
+  font-family: $default-font;
+  overflow-x: hidden;
+  color: $text;
+
+  input,
+  textarea {
+    border: #666 1px solid;
+    outline: none;
+
+    &:focus:required:invalid {
+      border-color: red;
+    }
+
+    &:required:valid {
+      border-color: green;
+    }
+  }
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  &.img-width {
+    width: 100%;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.title {
+  color: #252525;
+  font-family: Formular;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: #17a942;
+  font-family: $italic;
+  font-size: 24px;
+  font-weight: 400;
+}

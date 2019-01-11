@@ -1,0 +1,20 @@
+// Necessary files
+@import "vars";
+@import "fonts";
+@import "libs";
+@import "base";
+
+// Modulues
+@import "_modules/header";
+@import "_modules/opening";
+@import "_modules/whatIs";
+@import "_modules/gallery";
+@import "_modules/works";
+@import "_modules/steps";
+@import "_modules/garant";
+@import "_modules/calc";
+@import "_modules/footer";
+@import "_modules/popups";
+
+// Media
+@import "media"; 

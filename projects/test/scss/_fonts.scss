@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("Formular", "../fonts/Formular");
+@include font-face("Formular", "../fonts/Formular-Medium", 500);
+@include font-face("MyriadPro-It", "../fonts/MyriadPro-It", 400);

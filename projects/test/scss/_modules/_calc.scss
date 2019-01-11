@@ -1,0 +1,109 @@
+.calc {
+  background-image: url(../img/calc-bg.jpg);
+  height: 804px;
+
+  &__inner {
+    width: 1005px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 162px;
+    position: relative;
+    left: -10px;
+  }
+
+  &__title {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 20px;
+    position: relative;
+    left: -2px;
+  }
+
+  &__subtitle {
+    font-family: $italic;
+    font-size: 18px;
+    color: #9adf05;
+    line-height: 1.3;
+    margin-bottom: 50px;
+  }
+
+  &__inputgroup {
+    width: 779px;
+    max-width: 100%;
+
+    &+div {
+      margin-top: 40px;
+      margin-bottom: 45px;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 19px;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding: 0 15px;
+    font-weight: 500;
+
+    &:hover {
+      background: #fff;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btn {
+    display: block;
+    width: 351px;
+    height: 66px;
+    border: 3px solid #ffffff;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.89px;
+    margin-right: 41px;
+    cursor: pointer;
+    background: none;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #17a841;
+    }
+  }
+
+  &__results {
+    color: #9adf05;
+    font-size: 50px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &::after {
+      content: ' р.';
+    }
+  }
+}
