@@ -200,7 +200,9 @@
 
     &.hidden {
       pointer-events: none;
-      // opacity: 0;
+      svg {
+        opacity: 0.4;
+      }
     }
   }
 

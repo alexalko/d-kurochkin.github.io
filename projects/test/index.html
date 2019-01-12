@@ -45,11 +45,11 @@
         ГАЗОНА
       </h1>
       <p class="opening__subtitle">Закажи до начала сезона и получи скидку 10 %</p>
-      <a href="" class="opening__btn">Узнать больше</a>
+      <a href="#acnhor" class="opening__btn scrollto">Узнать больше</a>
     </div>
   </div>
 
-  <div class="whatIs">
+  <div class="whatIs" id="acnhor">
     <div class="whatIs__inner">
       <h2 class="title whatIs__title">Что такое гидропосев?</h2>
       <p class="subtitle whatIs__subtitle">Расскажем самое важное всего за 1 минуту</p>
@@ -308,7 +308,7 @@
           из пунктов, поясняющий текст к каждому из пунктов, поясняющий текст к каждому из
           пунктов, поясняющий текст к каждому из пунктов, поясняющий текст  каждому из пунктов, поясняющий текст к каждому  каждому из пунктов, поясняющий текст к каждому </div>
       </div>
-      <a href="" class="garant__btn">Заказать газон</a>
+      <a href="#callMePopup" class="garant__btn callMeOpen"  data-effect="mfp-zoom-in">Заказать газон</a>
     </div>
   </div>
 
@@ -320,11 +320,11 @@
       <form action="" class="calc__form">
         <div class="calc__inputgroup">
           <label for="" class="calc__label">Площадь участка под озеленение (соток, 1 сотка=100 кв.м)</label>
-          <input type="text" class="calc__input" placeholder="1">
+          <input type="text" class="calc__input">
         </div>
         <div class="calc__inputgroup">
           <label for="" class="calc__label">Площадь участка под озеленение (кв.м, 100 кв.м=1 сотка)</label>
-          <input type="text" class="calc__input" placeholder="100">
+          <input type="text" class="calc__input">
         </div>
         <div class="calc__row">
           <button class="calc__btn">Рассчитать <span>стоимость</span></button>
@@ -338,9 +338,9 @@
     <div class="footer__inner">
       <div class="footer__title">Закажи до <br> лета со скидкой 10 %</div>
       <div class="footer__subtitle">Оставьте заявку и консультант свяжется с Вами в течении 5-ти минут</div>
-      <form action="" class="footer__form">
-        <input type="text" placeholder="Имя" required>
-        <input type="text" placeholder="Телефон" required>
+      <form class="footer__form">
+        <input type="text" name="name" placeholder="Имя" required>
+        <input type="text" name="phone" placeholder="Телефон" required>
         <button type="submit"><span>получить консультацию</span><span>Консультация</span></button>
       </form>
       <p class="footer__policy">
@@ -385,11 +385,16 @@
   <div class="popup mfp-with-anim mfp-hide" id="callMePopup">
     <div class="popup__title">Обратный звонок</div>
     <div class="subtitle popup__subtitle">Текст для описания чего-либо</div>
-    <form action="" class="popup__form">
-      <input type="text" placeholder="Имя" required>
-      <input type="text" placeholder="Телефон" required>
+    <form class="popup__form">
+      <input type="text" name="name" placeholder="Имя" required>
+      <input type="text" name="phone" placeholder="Телефон" required>
       <button>Заказать</button>
     </form>
+  </div>
+
+  <div class="popup mfp-with-anim mfp-hide" id="thanksPopup">
+    <div class="popup__title">Спасибо за что-то!</div>
+    <div class="subtitle popup__subtitle">С вами свяжутся в ближайшие 10 минут</div>
   </div>
 
   <script src="js/scripts.min.js"></script>
